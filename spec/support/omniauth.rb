@@ -4,7 +4,7 @@ def stub_auth
     "provider"=>"github",
     "uid"=>"19535775",
     "info"=>{"nickname"=>"agpiermarini", "email"=>nil, "name"=>"Andrew", "image"=>"https://avatars1.githubusercontent.com/u/19535775?v=4", "urls"=>{"GitHub"=>"https://github.com/agpiermarini", "Blog"=>""}},
-    "credentials"=>{"token"=>"1943d6e2d64702023be892c02e3adfb27b026f0c", "expires"=>false},
+    "credentials"=>{"token"=>ENV["github_token"], "expires"=>false},
     "extra"=>
       {"raw_info"=>
         {"login"=>"agpiermarini",

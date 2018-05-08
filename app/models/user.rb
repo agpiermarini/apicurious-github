@@ -1,4 +1,13 @@
 class User < ApplicationRecord
+  before_save :generate_slug
+
+  def generate_slug
+    self.slug = username.parameterize
+  end
+
+  def to_param
+    slug
+  end
 
   def self.from_omniauth(auth_info)
     find_or_create_by(uid: auth_info[:uid]) do | new_user |

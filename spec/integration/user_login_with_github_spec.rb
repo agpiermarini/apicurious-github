@@ -12,6 +12,8 @@ describe 'Github OAuth' do
 
     expect(page).to_not have_content('Sign in')
 
+    expect(current_path).to eq("/#{stub_auth.extra.raw_info.login}")
+
     click_on 'Sign out'
 
     expect(page.status_code).to eq(200)
