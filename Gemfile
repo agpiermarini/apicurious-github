@@ -49,6 +49,7 @@ group :development, :test do
   gem 'active_designer'
   gem 'database_cleaner'
   gem 'figaro'
+  gem 'factory_bot'
 end
 
 group :development do
