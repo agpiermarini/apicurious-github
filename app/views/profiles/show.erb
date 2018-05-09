@@ -1,0 +1,20 @@
+<main>
+  <section class="user-info">
+    <ul class="user">
+      <li class="avatar"> <%= image_tag(@profile[:avatar_url], class: "avatar") %> </li>
+      <li class="name">  <%= @profile[:name] %> </li>
+      <li class="login"> <%= @profile[:login] %> </li>
+      <li class="bio"> <%= @profile[:bio] %> </li>
+    </ul>
+  </section>
+  <section class="other-info">
+    <ul class="info">
+      <li class="links">
+        <%= link_to "Overview", "/#{@profile[:login]}" %>
+        <%= link_to "Repositories [#{@profile[:public_repos]}]", "/#{@profile[:login]}/repos" %>
+        <%= link_to "Starred [#]", "/#{@profile[:login]}/starred" %>
+        <%= link_to "Followers [#{@profile[:followers]}]", "/#{@profile[:login]}/followers" %>
+        <%= link_to "Following [#{@profile[:following]}]", "/#{@profile[:login]}/following" %>
+      </li>
+  </section>
+</main>
