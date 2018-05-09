@@ -1,0 +1,155 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/jmejia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 09 May 2018 21:29:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '21'
+      X-Ratelimit-Reset:
+      - '1525903134'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      Etag:
+      - W/"8f9a33a2c5c98158b610c1aad3aa0864"
+      Last-Modified:
+      - Sat, 23 Dec 2017 22:43:46 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.027437'
+      X-Github-Request-Id:
+      - E94E:5662:E7B02E:2120BD0:5AF36857
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"jmejia","id":73824,"avatar_url":"https://avatars0.githubusercontent.com/u/73824?v=4","gravatar_id":"","url":"https://api.github.com/users/jmejia","html_url":"https://github.com/jmejia","followers_url":"https://api.github.com/users/jmejia/followers","following_url":"https://api.github.com/users/jmejia/following{/other_user}","gists_url":"https://api.github.com/users/jmejia/gists{/gist_id}","starred_url":"https://api.github.com/users/jmejia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmejia/subscriptions","organizations_url":"https://api.github.com/users/jmejia/orgs","repos_url":"https://api.github.com/users/jmejia/repos","events_url":"https://api.github.com/users/jmejia/events{/privacy}","received_events_url":"https://api.github.com/users/jmejia/received_events","type":"User","site_admin":false,"name":"Josh
+        Mejia","company":"Turing School of Software & Design","blog":"https://twitter.com/joshuamejia","location":"Denver,
+        CO","email":null,"hireable":null,"bio":null,"public_repos":61,"public_gists":1,"followers":95,"following":44,"created_at":"2009-04-14T21:42:00Z","updated_at":"2017-12-23T22:43:46Z"}'
+    http_version: 
+  recorded_at: Wed, 09 May 2018 21:29:59 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/jmejia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Authorization:
+      - token <GITHUB OAUTH TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 09 May 2018 21:30:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4998'
+      X-Ratelimit-Reset:
+      - '1525904999'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"d4090e31389c9022c2b4f77ae721c978"
+      Last-Modified:
+      - Sat, 23 Dec 2017 22:43:46 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - bff9e878c77272925590
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.043906'
+      X-Github-Request-Id:
+      - E94F:5662:E7B04F:2120C0A:5AF36857
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"jmejia","id":73824,"avatar_url":"https://avatars0.githubusercontent.com/u/73824?v=4","gravatar_id":"","url":"https://api.github.com/users/jmejia","html_url":"https://github.com/jmejia","followers_url":"https://api.github.com/users/jmejia/followers","following_url":"https://api.github.com/users/jmejia/following{/other_user}","gists_url":"https://api.github.com/users/jmejia/gists{/gist_id}","starred_url":"https://api.github.com/users/jmejia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmejia/subscriptions","organizations_url":"https://api.github.com/users/jmejia/orgs","repos_url":"https://api.github.com/users/jmejia/repos","events_url":"https://api.github.com/users/jmejia/events{/privacy}","received_events_url":"https://api.github.com/users/jmejia/received_events","type":"User","site_admin":false,"name":"Josh
+        Mejia","company":"Turing School of Software & Design","blog":"https://twitter.com/joshuamejia","location":"Denver,
+        CO","email":"joshua.mejia@gmail.com","hireable":null,"bio":null,"public_repos":61,"public_gists":1,"followers":95,"following":44,"created_at":"2009-04-14T21:42:00Z","updated_at":"2017-12-23T22:43:46Z"}'
+    http_version: 
+  recorded_at: Wed, 09 May 2018 21:30:00 GMT
+recorded_with: VCR 4.0.0
