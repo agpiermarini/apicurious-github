@@ -4,7 +4,7 @@ describe 'User' do
   describe 'with github authentication' do
     context 'visits their own profile page' do
       it 'and sees their profile information' do
-        VCR.use_cassette("github-service-user-self") do
+        VCR.use_cassette("github-user-endpoint-self") do
           api_user = create(:user)
           allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(api_user)
 
@@ -22,7 +22,7 @@ describe 'User' do
 
     context 'visits another users profile page' do
       it 'and sees that users profile information' do
-        VCR.use_cassette("github-service-user-other") do
+        VCR.use_cassette("github-user-endpoint-other") do
           api_user = create(:user)
           allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(api_user)
 
@@ -42,7 +42,7 @@ describe 'User' do
 
     context 'visits an invalid account page' do
       it 'and sees 404 message' do
-        VCR.use_cassette("github-service-user-no-user") do
+        VCR.use_cassette("github-user-endpoint-no-user") do
           api_user = create(:user)
           allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(api_user)
 
@@ -55,9 +55,6 @@ describe 'User' do
           end
 
           parsed_response = JSON.parse(response.body, symbolize_names: true)
-
-          # response = Faraday.get "https://api.github.com/users/#{github_username}"
-          # parsed_response = JSON.parse(response.body, symbolize_names: true)
 
           visit "/#{github_username}"
 

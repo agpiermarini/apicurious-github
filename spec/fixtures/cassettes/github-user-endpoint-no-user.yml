@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 May 2018 21:00:08 GMT
+      - Wed, 09 May 2018 21:30:00 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4973'
+      - '4997'
       X-Ratelimit-Reset:
-      - '1525901177'
+      - '1525904999'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -62,14 +62,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.023718'
+      - '0.026379'
       X-Github-Request-Id:
-      - E91D:5663:1296989:272E063:5AF36157
+      - E950:5662:E7B087:2120C73:5AF36858
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/users/#get-a-single-user"}'
     http_version: 
-  recorded_at: Wed, 09 May 2018 21:00:08 GMT
+  recorded_at: Wed, 09 May 2018 21:30:00 GMT
 - request:
     method: get
     uri: https://api.github.com/users/asdfasdfadsgadf
@@ -93,7 +93,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 May 2018 21:00:08 GMT
+      - Wed, 09 May 2018 21:30:00 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -103,9 +103,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4972'
+      - '4996'
       X-Ratelimit-Reset:
-      - '1525901177'
+      - '1525904999'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -132,12 +132,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.034607'
+      - '0.024985'
       X-Github-Request-Id:
-      - E91E:5661:9A08E1:178F42F:5AF36158
+      - E951:5661:9BEF39:17D6A99:5AF36858
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/users/#get-a-single-user"}'
     http_version: 
-  recorded_at: Wed, 09 May 2018 21:00:08 GMT
+  recorded_at: Wed, 09 May 2018 21:30:00 GMT
 recorded_with: VCR 4.0.0
