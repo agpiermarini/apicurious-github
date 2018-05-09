@@ -1,14 +1,11 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">GITHUB LOGO</a>
+  <a class="navbar-brand" href="#">  <%= image_tag("github_nav_logo.png", class: "nav_image") %> </a>
 
 <!-- Search bar -->
   <form class="form-inline" action="/action_page.php">
     <div class="input-group">
-      <div class="input-group-prepend">
-        <span class="input-group-text">@</span>
-      </div>
-      <input type="text" class="form-control" placeholder="Username">
+      <input type="text" class="form-control" placeholder="Search Github">
     </div>
   </form>
 
@@ -28,35 +25,36 @@
     </li>
 
     <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        +
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">New repository</a>
-        <a class="dropdown-item" href="#">Import repository</a>
-        <a class="dropdown-item" href="#">New gist</a>
-        <a class="dropdown-item" href="#">New organization</a>
-      </div>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Avatar
-      </a>
-      <div class="dropdown-menu">
-        <% if current_user %>
-          <a class="dropdown-item" href="#">Your profile</a>
+    <% if current_user %>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          +
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">New repository</a>
+          <a class="dropdown-item" href="#">Import repository</a>
+          <a class="dropdown-item" href="#">New gist</a>
+          <a class="dropdown-item" href="#">New organization</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          <%= image_tag(current_user.avatar_url, class: "nav_image") %>
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="/<%= current_user.username %>">Your profile</a>
           <a class="dropdown-item" href="#">Your stars</a>
           <a class="dropdown-item" href="#">Your gists</a>
           <br></br>
           <a class="dropdown-item" href="#">Help</a>
           <a class="dropdown-item" href="#">Settings</a>
           <%= link_to "Sign out", logout_path, class: "dropdown-item"  %>
-        <% else %>
-          <%= link_to "Sign in", github_login_path, class: "dropdown-item" %>
-        <% end %>
-        <!-- <a class="dropdown-item" href="#">Sign out</a> -->
-      </div>
-    </li>
+        </div>
+      </li>
+    <% else %>
+      <li class="nav-item">
+        <%= link_to "Sign in", github_login_path, class: "nav-link" %>
+      </li>
+    <% end %>
   </ul>
 </nav>

@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2018_05_08_211212) do
     t.string "username"
     t.string "name"
     t.string "oauth_token"
+    t.string "avatar_url"
     t.string "slug", null: false
     t.index ["slug"], name: "index_users_on_slug", unique: true
   end

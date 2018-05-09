@@ -16,6 +16,8 @@ describe 'Github OAuth' do
 
     click_on 'Sign out'
 
+    expect(current_path).to eq(root_path)
+
     expect(page.status_code).to eq(200)
   end
 end
