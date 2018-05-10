@@ -7,4 +7,13 @@ describe FollowerSearch do
       expect(subject).to be_a FollowerSearch
     end
   end
+
+  context 'instance methods' do
+    it '#followers' do
+      VCR.use_cassette("follower-search") do
+        expect(subject.followers).to be_an Array
+        expect(subject.followers.first).to be_a Profile
+      end
+    end
+  end
 end

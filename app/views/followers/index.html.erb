@@ -6,7 +6,7 @@
       <% @followers.each_with_index do | follower, index | %>
       <li class="follower a<%= index %>">
         <div class="follower-avatar">
-            <%= image_tag(@profile.avatar_url, class: "avatar-thumbnail") %>
+            <%= image_tag(follower.avatar_url, class: "avatar-thumbnail") %>
         <div>
         <div class="follower-info">
           <div class="follower-names">
@@ -14,8 +14,8 @@
             <%= link_to follower.username, "/#{follower.username}", class: "follower-username" %>
           </div>
           <h5 class="follower-bio"><%= follower.bio %></h5>
-          <div class="follower-organization-location">
-            <h5 class="follower-organization"><%= follower.organization %></h5>
+          <div class="follower-company-location">
+            <h5 class="follower-company"><%= follower.company %></h5>
             <h5 class="follower-location"><%= follower.location %></h5>
           </div>
         </div>
