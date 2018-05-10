@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/logout', to: 'sessions#destroy'
 
   get '/:username', to: 'profiles#show'
+  get '/:username/repos', to: 'repos#index'
 end
