@@ -14,8 +14,8 @@ describe 'User' do
           expect(page).to have_css(".a1")
 
           within(".a1") do
-            expect(page).to have_css(".follower-name")
-            expect(page).to have_css(".follower-avatar")
+            expect(page).to have_css(".follow-name")
+            expect(page).to have_css(".follow-avatar")
           end
         end
       end

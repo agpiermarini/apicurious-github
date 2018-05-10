@@ -5,13 +5,7 @@ class FollowerSearch
   end
 
   def followers
-    connection = Faraday.new "https://api.github.com/users/#{username}/followers"
-
-    response = connection.get do | req |
-      req.headers["Authorization"] = "token #{@token}"
-    end
-
-    follower_info = JSON.parse(response.body, symbolize_names: true)
+    follower_info = follower_service.followers
 
     follower_info.map do | follower |
       UserSearch.new(follower[:login], ENV["github_token"]).profile
@@ -20,4 +14,8 @@ class FollowerSearch
 
   private
   attr_reader :username, :token
+
+  def follower_service
+    @follower_service ||= GithubFollowerService.new(username, token)
+  end
 end
