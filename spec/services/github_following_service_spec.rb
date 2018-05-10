@@ -23,7 +23,7 @@ describe GithubFollowingService do
       skip 'is informed when user invalid' do
         VCR.use_cassette("github-following-service-invalid") do
           expect(subject.following).to be_a Hash
-          expect(subject.following  ).to have_key :message
+          expect(subject.following).to have_key :message
         end
       end
     end

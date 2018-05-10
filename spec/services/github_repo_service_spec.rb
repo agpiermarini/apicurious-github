@@ -4,7 +4,7 @@ describe GithubRepoService do
   subject { GithubRepoService.new("agpiermarini", ENV["github_token"]) }
   context 'initialize' do
     it 'exists when passed a valid state' do
-      expect(subject).to be_a  GithubRepoService
+      expect(subject).to be_a GithubRepoService
     end
   end
 
@@ -12,7 +12,7 @@ describe GithubRepoService do
     context '#user' do
       it 'can return valid user information' do
         VCR.use_cassette("github-repo-service-valid") do
-          expect(subject.repos).to be_a  Array
+          expect(subject.repos).to be_a Array
           expect(subject.repos.first).to be_a Hash
           expect(subject.repos.first).to have_key :name
           expect(subject.repos.first).to have_key :description
@@ -23,8 +23,8 @@ describe GithubRepoService do
       # How to have a different subject with invalid username
       skip 'is informed when user invalid' do
         VCR.use_cassette("github-repo-service-invalid") do
-          expect(subject.repos).to be_a  Array
-          expect(subject.user).to have_key :message
+          expect(subject.repos).to be_a Array
+          expect(subject.repos).to have_key :message
         end
       end
     end
