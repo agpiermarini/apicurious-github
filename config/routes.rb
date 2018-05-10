@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get '/:username/repos', to: 'repos#index'
   get '/:username/followers', to: 'followers#index'
   get '/:username/following', to: 'following#index'
+  get '/:username/starred', to: 'starred#index'
 end

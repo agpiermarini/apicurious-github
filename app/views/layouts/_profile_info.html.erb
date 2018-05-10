@@ -3,6 +3,13 @@
     <li class="avatar"> <%= image_tag(@profile.avatar_url, class: "avatar") %> </li>
     <li class="name">  <%= @profile.name %> </li>
     <li class="login"> <%= @profile.username %> </li>
-    <li class="bio"> <%= @profile.bio %> </li>
+    <li class="bio lightweight-small"> <%= @profile.bio %> </li>
+    <% if @profile.company || @profile.location || @profile.email %>
+      <div class="additional-user-info top-border">
+        <li class="company lightweight-small"> <%= @profile.company %> </li>
+        <li class="location lightweight-small"> <%= @profile.location %> </li>
+        <li class="email lightweight-small"> <%= @profile.email %> </li>
+      </div>
+    <% end %>  
   </ul>
 </section>
