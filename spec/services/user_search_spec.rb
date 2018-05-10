@@ -10,9 +10,9 @@ describe UserSearch do
 
   context 'instance methods' do
     it '#profile' do
-      VCR.use_cassette('test') do
+      VCR.use_cassette('user-search') do
         expect(subject.profile).to be_a Profile
-      end  
+      end
     end
   end
 end

@@ -1,13 +1,8 @@
 <main>
-  <%= render partial: 'layouts/profile_info'  %>
+  <%= render partial: 'layouts/profile_info' %>
   <section class="other-info">
     <ul class="info">
-      <li class="links">
-        <%= link_to "Overview", "/#{@profile.username}" %>
-        <%= link_to "Repositories [#{@profile.repo_quantity}]", "/#{@profile.username}/repos" %>
-        <%= link_to "Starred [#]", "/#{@profile.username}/starred" %>
-        <%= link_to "Followers [#{@profile.followers_quantity}]", "/#{@profile.username}/followers" %>
-        <%= link_to "Following [#{@profile.following_quantity}]", "/#{@profile.username}/following" %>
-      </li>
+      <%= render partial: 'layouts/user_links' %>
+    </ul>
   </section>
 </main>
