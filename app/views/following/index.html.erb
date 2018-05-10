@@ -3,7 +3,7 @@
   <section class="other-info">
     <ul class="info">
       <%= render partial: 'layouts/user_links' %>
-      <% @followers.each_with_index do | user, index | %>
+      <% @following.each_with_index do | user, index | %>
         <li class="follow a<%= index %> list-panel bottom-border">
           <div class="follow-avatar">
               <%= image_tag(user.avatar_url, class: "avatar-thumbnail") %>
