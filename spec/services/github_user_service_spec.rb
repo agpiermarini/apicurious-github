@@ -20,7 +20,7 @@ describe GithubUserService do
       end
 
       # How to have a different subject with invalid username
-      skip 'can return valid user information' do
+      skip 'is informed when user invalid' do
         VCR.use_cassette("github-user-service-invalid") do
           expect(subject.user).to be_a  Hash
           expect(subject.user).to have_key :message
