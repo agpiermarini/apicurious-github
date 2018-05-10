@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 May 2018 22:24:08 GMT
+      - Thu, 10 May 2018 02:08:31 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '50'
+      - '56'
       X-Ratelimit-Reset:
-      - '1525906794'
+      - '1525920740'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Vary:
@@ -62,16 +62,16 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.031122'
+      - '0.023006'
       X-Github-Request-Id:
-      - EA2D:5661:9EAB77:1844AB7:5AF37508
+      - EDBF:0644:2544D9B:4797C60:5AF3A99E
     body:
       encoding: ASCII-8BIT
       string: '{"login":"jmejia","id":73824,"avatar_url":"https://avatars0.githubusercontent.com/u/73824?v=4","gravatar_id":"","url":"https://api.github.com/users/jmejia","html_url":"https://github.com/jmejia","followers_url":"https://api.github.com/users/jmejia/followers","following_url":"https://api.github.com/users/jmejia/following{/other_user}","gists_url":"https://api.github.com/users/jmejia/gists{/gist_id}","starred_url":"https://api.github.com/users/jmejia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmejia/subscriptions","organizations_url":"https://api.github.com/users/jmejia/orgs","repos_url":"https://api.github.com/users/jmejia/repos","events_url":"https://api.github.com/users/jmejia/events{/privacy}","received_events_url":"https://api.github.com/users/jmejia/received_events","type":"User","site_admin":false,"name":"Josh
         Mejia","company":"Turing School of Software & Design","blog":"https://twitter.com/joshuamejia","location":"Denver,
         CO","email":null,"hireable":null,"bio":null,"public_repos":62,"public_gists":1,"followers":95,"following":44,"created_at":"2009-04-14T21:42:00Z","updated_at":"2017-12-23T22:43:46Z"}'
     http_version: 
-  recorded_at: Wed, 09 May 2018 22:24:08 GMT
+  recorded_at: Thu, 10 May 2018 02:08:31 GMT
 - request:
     method: get
     uri: https://api.github.com/users/jmejia
@@ -95,7 +95,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 May 2018 22:24:08 GMT
+      - Thu, 10 May 2018 02:08:31 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -105,9 +105,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4972'
+      - '4990'
       X-Ratelimit-Reset:
-      - '1525904999'
+      - '1525921285'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -142,14 +142,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.060674'
+      - '0.045674'
       X-Github-Request-Id:
-      - EA2E:5662:EC1A61:21C0CFC:5AF37508
+      - EDC0:0642:1397EF8:2C9415A:5AF3A99F
     body:
       encoding: ASCII-8BIT
       string: '{"login":"jmejia","id":73824,"avatar_url":"https://avatars0.githubusercontent.com/u/73824?v=4","gravatar_id":"","url":"https://api.github.com/users/jmejia","html_url":"https://github.com/jmejia","followers_url":"https://api.github.com/users/jmejia/followers","following_url":"https://api.github.com/users/jmejia/following{/other_user}","gists_url":"https://api.github.com/users/jmejia/gists{/gist_id}","starred_url":"https://api.github.com/users/jmejia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmejia/subscriptions","organizations_url":"https://api.github.com/users/jmejia/orgs","repos_url":"https://api.github.com/users/jmejia/repos","events_url":"https://api.github.com/users/jmejia/events{/privacy}","received_events_url":"https://api.github.com/users/jmejia/received_events","type":"User","site_admin":false,"name":"Josh
         Mejia","company":"Turing School of Software & Design","blog":"https://twitter.com/joshuamejia","location":"Denver,
         CO","email":"joshua.mejia@gmail.com","hireable":null,"bio":null,"public_repos":62,"public_gists":1,"followers":95,"following":44,"created_at":"2009-04-14T21:42:00Z","updated_at":"2017-12-23T22:43:46Z"}'
     http_version: 
-  recorded_at: Wed, 09 May 2018 22:24:08 GMT
+  recorded_at: Thu, 10 May 2018 02:08:31 GMT
 recorded_with: VCR 4.0.0
