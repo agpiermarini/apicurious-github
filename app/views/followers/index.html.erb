@@ -1,0 +1,28 @@
+<main>
+  <%= render partial: 'layouts/profile_info' %>
+  <section class="other-info">
+    <ul class="info">
+      <%= render partial: 'layouts/user_links' %>
+      <% @followers.each_with_index do | follower, index | %>
+      <li class="follow a<%= index %> list-panel bottom-border">
+        <div class="follow-avatar">
+            <%= image_tag(follower.avatar_url, class: "avatar-thumbnail") %>
+        </div>
+        <div class="follow-info flex-row-wrap">
+          <div class="follow-names">
+            <%= link_to follower.name, "/#{follower.username}", class: "follow-name" %>
+            <%= link_to follower.username, "/#{follower.username}", class: "follow-username" %>
+          </div>
+          <h5 class="follow-bio panel-info"><%= follower.bio %></h5>
+          <div class="follow-company-location flex-row-wrap">
+            <% if follower.company %>
+            <h5 class="follow-company panel-info"><%= follower.company %></h5>
+            <% end %>
+            <h5 class="follow-location panel-info"><%= follower.location %></h5>
+          </div>
+        </div>
+      </li>
+      <% end %>
+    </ul>
+  </section>
+</main>

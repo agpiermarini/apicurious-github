@@ -9,4 +9,5 @@ Rails.application.routes.draw do
 
   get '/:username', to: 'profiles#show'
   get '/:username/repos', to: 'repos#index'
+  get '/:username/followers', to: 'followers#index'
 end

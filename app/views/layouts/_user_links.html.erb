@@ -1,7 +1,7 @@
-<li class="links">
-  <%= link_to "Overview", "/#{@profile.username}" %>
-  <%= link_to "Repositories [#{@profile.repo_quantity}]", "/#{@profile.username}/repos" %>
-  <%= link_to "Starred [#]", "/#{@profile.username}/starred" %>
-  <%= link_to "Followers [#{@profile.followers_quantity}]", "/#{@profile.username}/followers" %>
-  <%= link_to "Following [#{@profile.following_quantity}]", "/#{@profile.username}/following" %>
+<li class="links bottom-border">
+  <%= link_to "Overview", "/#{@profile.username}", class: "overview-link" %>
+  <%= link_to "Repositories [#{@profile.repo_quantity}]", "/#{@profile.username}/repos", class: "repo-link" %>
+  <%= link_to "Starred [#]", "/#{@profile.username}/starred", class: "starred-link" %>
+  <%= link_to "Followers [#{@profile.followers_quantity}]", "/#{@profile.username}/followers", class: "follower-link" %>
+  <%= link_to "Following [#{@profile.following_quantity}]", "/#{@profile.username}/following", class: "following-link" %>
 </li>

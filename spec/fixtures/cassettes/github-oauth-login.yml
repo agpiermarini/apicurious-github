@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 03:28:25 GMT
+      - Thu, 10 May 2018 16:40:51 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,17 +33,17 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4966'
+      - '4815'
       X-Ratelimit-Reset:
-      - '1525924893'
+      - '1525972125'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       Etag:
-      - W/"34156db7f0430bd6a3fe6377b8369406"
+      - W/"3959e17e73604f54ca92f006ebf24ff5"
       Last-Modified:
-      - Wed, 09 May 2018 01:17:18 GMT
+      - Thu, 10 May 2018 15:18:19 GMT
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -70,13 +70,13 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.042969'
+      - '0.049570'
       X-Github-Request-Id:
-      - FFA1:0643:1D40304:3DB5ADD:5AF3BC59
+      - DF61:5663:1A41788:37579DF:5AF47613
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
-        Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":38,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-09T01:17:18Z"}'
+        Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 03:28:25 GMT
+  recorded_at: Thu, 10 May 2018 16:40:51 GMT
 recorded_with: VCR 4.0.0

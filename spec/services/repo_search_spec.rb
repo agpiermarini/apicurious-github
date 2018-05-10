@@ -3,7 +3,7 @@ require 'rails_helper'
 describe RepoSearch do
   subject { RepoSearch.new("agpiermarini", ENV["github_token"]) }
   context 'initialize' do
-    skip 'exists with attributes' do
+    it 'exists with attributes' do
       expect(subject).to be_a RepoSearch
     end
   end

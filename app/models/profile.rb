@@ -3,6 +3,8 @@ class Profile
               :name,
               :bio,
               :avatar_url,
+              :location,
+              :company,
               :repo_quantity,
               :followers_quantity,
               :following_quantity,
@@ -13,6 +15,8 @@ class Profile
     @name = profile_info[:name]
     @bio = profile_info[:bio]
     @avatar_url = profile_info[:avatar_url]
+    @location = profile_info[:location]
+    @company = profile_info[:company]
     @repo_quantity = profile_info[:public_repos]
     @followers_quantity = profile_info[:followers]
     @following_quantity = profile_info[:following]

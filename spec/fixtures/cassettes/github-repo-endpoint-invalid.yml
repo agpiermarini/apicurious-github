@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.github.com/users/agpiermarini
+    uri: https://api.github.com/users/iasdfasdfasdfakodgadsf
     body:
       encoding: US-ASCII
       string: ''
@@ -10,34 +10,40 @@ http_interactions:
       User-Agent:
       - Faraday v0.12.2
       Authorization:
-      - token
+      - token <GITHUB OAUTH TOKEN>
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
   response:
     status:
-      code: 401
-      message: Unauthorized
+      code: 404
+      message: Not Found
     headers:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 16:40:59 GMT
+      - Thu, 10 May 2018 16:40:51 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Content-Length:
-      - '83'
+      Transfer-Encoding:
+      - chunked
       Status:
-      - 401 Unauthorized
+      - 404 Not Found
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4816'
+      X-Ratelimit-Reset:
+      - '1525972125'
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - bff9e878c77272925590
       X-Github-Media-Type:
       - github.v3; format=json
-      X-Ratelimit-Limit:
-      - '60'
-      X-Ratelimit-Remaining:
-      - '30'
-      X-Ratelimit-Reset:
-      - '1525972922'
       Access-Control-Expose-Headers:
       - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
         X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
@@ -56,12 +62,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.017958'
+      - '0.020563'
       X-Github-Request-Id:
-      - DF79:5663:1A41A7C:3758109:5AF4761A
+      - DF60:5663:1A41755:3757967:5AF47613
     body:
-      encoding: UTF-8
-      string: '{"message":"Bad credentials","documentation_url":"https://developer.github.com/v3"}'
+      encoding: ASCII-8BIT
+      string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/users/#get-a-single-user"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 16:40:59 GMT
+  recorded_at: Thu, 10 May 2018 16:40:51 GMT
 recorded_with: VCR 4.0.0

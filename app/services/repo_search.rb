@@ -16,6 +16,6 @@ class RepoSearch
     attr_reader :username, :token
 
     def repo_service
-      @repo_services ||= GithubRepoService.new(username, token)
+      @repo_service ||= GithubRepoService.new(username, token)
     end
 end
