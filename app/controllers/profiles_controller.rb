@@ -1,7 +1,7 @@
 class ProfilesController < ApplicationController
   def show
-    @profile = GithubUserService.new(params[:username], current_user.oauth_token).user
+    @profile = UserSearch.new(params[:username], current_user.oauth_token).profile
 
-    render :plain => @profile[:message], :status => '404' if @profile[:message]
+    render :plain => @profile.message, :status => '404' if @profile.message
   end
 end
