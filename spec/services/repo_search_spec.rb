@@ -11,8 +11,8 @@ describe RepoSearch do
   context 'instance methods' do
     it '#profile' do
       VCR.use_cassette('repo-search') do
-        expect(subject.repositories).to be_an Array
-        expect(subject.repositories.first).to be_a Repository
+        expect(subject.repos).to be_an Array
+        expect(subject.repos.first).to be_a Repository
       end
     end
   end

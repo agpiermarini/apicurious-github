@@ -4,16 +4,10 @@ class RepoSearch
     @token = token
   end
 
-  def repositories
-    connection = Faraday.new "https://api.github.com/users/#{username}/repos"
+  def repos
+    repo_info = repo_service.repos
 
-    response = connection.get do |req|
-      req.headers["Authorization"] = "token #{token}"
-    end
-
-    raw_repos = JSON.parse(response.body, symbolize_names: true)
-
-    raw_repos.map do | repo_info |
+    repo_info.map do | repo_info |
       Repository.new(repo_info)
     end
   end
@@ -21,4 +15,7 @@ class RepoSearch
   private
     attr_reader :username, :token
 
+    def repo_service
+      @repo_services ||= GithubRepoService.new(username, token)
+    end
 end

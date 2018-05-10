@@ -11,9 +11,9 @@ describe 'User' do
           visit "/#{user.username}/repos"
 
           expect(page.status_code).to eq(200)
-          expect(page).to have_css(".repository1")
+          expect(page).to have_css(".a1")
 
-          within(".repository1") do
+          within(".a1") do
             expect(page).to have_content("Last updated")
           end
         end

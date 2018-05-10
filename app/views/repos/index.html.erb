@@ -4,13 +4,13 @@
     <ul class="info">
       <%= render partial: 'layouts/user_links' %>
       <% @repositories.each_with_index do | repo, index | %>
-      <li class="repository<%= index %>">
+      <li class="repository a<%= index %>">
         <%= link_to repo.name, repo.html_url, class: "repo-name" %>
         <h5 class="repo-description"><%= repo.description %></h5>
         <div class="other-repo-info">
           <h6 class="repo-language"><%= repo.language %></h6>
           <% unless repo.forks.zero? %>
-            <h6 class="repo-forks"><%= repo.forks_count %></h6>
+            <h6 class="repo-forks"><%= repo.forks %></h6>
           <% end %>
           <h6 class="repo-updated">Last updated: <%= DateTime.parse("#{repo.updated_at}").strftime('%B %e, %Y at %I:%M:%S %p') %></h6>
       </li>
