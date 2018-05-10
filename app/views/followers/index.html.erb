@@ -8,8 +8,8 @@
           <div class="follow-avatar">
               <%= image_tag(user.avatar_url, class: "avatar-thumbnail") %>
           </div>
-          <div class="follow-info flex-row-wrap">
-            <div class="follow-names">
+          <div class="follow-info">
+            <div class="follow-names flex-row-wrap">
               <%= link_to user.name, "/#{user.username}", class: "follow-name" %>
               <%= link_to user.username, "/#{user.username}", class: "follow-username" %>
             </div>
