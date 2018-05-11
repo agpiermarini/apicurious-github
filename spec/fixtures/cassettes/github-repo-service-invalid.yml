@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:29 GMT
+      - Fri, 11 May 2018 05:25:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4459'
+      - '4910'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -62,14 +62,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.026427'
+      - '0.024710'
       X-Github-Request-Id:
-      - C868:0644:391F1A3:6DA2820:5AF5182D
+      - C93A:0643:2C41B6F:5D6B34C:5AF52945
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/repos/#list-user-repositories"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:29 GMT
+  recorded_at: Fri, 11 May 2018 05:25:25 GMT
 - request:
     method: get
     uri: https://api.github.com/users/asdfklajsdfnasd/repos?sort=updated
@@ -93,7 +93,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:29 GMT
+      - Fri, 11 May 2018 05:25:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -103,9 +103,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4458'
+      - '4909'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -132,12 +132,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.022746'
+      - '0.018715'
       X-Github-Request-Id:
-      - C869:0642:1E18E17:4479D5A:5AF5182D
+      - C93B:0644:39FC43F:6F3EEDB:5AF52945
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/repos/#list-user-repositories"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:29 GMT
+  recorded_at: Fri, 11 May 2018 05:25:25 GMT
 recorded_with: VCR 4.0.0

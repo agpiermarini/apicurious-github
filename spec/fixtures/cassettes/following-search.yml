@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:18 GMT
+      - Fri, 11 May 2018 05:25:14 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4492'
+      - '4943'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -68,14 +68,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.048611'
+      - '0.038867'
       X-Github-Request-Id:
-      - C847:0644:391E74C:6DA172E:5AF51822
+      - C919:0643:2C4167A:5D6A711:5AF5293A
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"patmaddox","id":1111,"avatar_url":"https://avatars2.githubusercontent.com/u/1111?v=4","gravatar_id":"","url":"https://api.github.com/users/patmaddox","html_url":"https://github.com/patmaddox","followers_url":"https://api.github.com/users/patmaddox/followers","following_url":"https://api.github.com/users/patmaddox/following{/other_user}","gists_url":"https://api.github.com/users/patmaddox/gists{/gist_id}","starred_url":"https://api.github.com/users/patmaddox/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patmaddox/subscriptions","organizations_url":"https://api.github.com/users/patmaddox/orgs","repos_url":"https://api.github.com/users/patmaddox/repos","events_url":"https://api.github.com/users/patmaddox/events{/privacy}","received_events_url":"https://api.github.com/users/patmaddox/received_events","type":"User","site_admin":false},{"login":"shanewholloway","id":210197,"avatar_url":"https://avatars1.githubusercontent.com/u/210197?v=4","gravatar_id":"","url":"https://api.github.com/users/shanewholloway","html_url":"https://github.com/shanewholloway","followers_url":"https://api.github.com/users/shanewholloway/followers","following_url":"https://api.github.com/users/shanewholloway/following{/other_user}","gists_url":"https://api.github.com/users/shanewholloway/gists{/gist_id}","starred_url":"https://api.github.com/users/shanewholloway/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shanewholloway/subscriptions","organizations_url":"https://api.github.com/users/shanewholloway/orgs","repos_url":"https://api.github.com/users/shanewholloway/repos","events_url":"https://api.github.com/users/shanewholloway/events{/privacy}","received_events_url":"https://api.github.com/users/shanewholloway/received_events","type":"User","site_admin":false},{"login":"richhaase","id":987317,"avatar_url":"https://avatars0.githubusercontent.com/u/987317?v=4","gravatar_id":"","url":"https://api.github.com/users/richhaase","html_url":"https://github.com/richhaase","followers_url":"https://api.github.com/users/richhaase/followers","following_url":"https://api.github.com/users/richhaase/following{/other_user}","gists_url":"https://api.github.com/users/richhaase/gists{/gist_id}","starred_url":"https://api.github.com/users/richhaase/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/richhaase/subscriptions","organizations_url":"https://api.github.com/users/richhaase/orgs","repos_url":"https://api.github.com/users/richhaase/repos","events_url":"https://api.github.com/users/richhaase/events{/privacy}","received_events_url":"https://api.github.com/users/richhaase/received_events","type":"User","site_admin":false},{"login":"russelleh","id":7073471,"avatar_url":"https://avatars1.githubusercontent.com/u/7073471?v=4","gravatar_id":"","url":"https://api.github.com/users/russelleh","html_url":"https://github.com/russelleh","followers_url":"https://api.github.com/users/russelleh/followers","following_url":"https://api.github.com/users/russelleh/following{/other_user}","gists_url":"https://api.github.com/users/russelleh/gists{/gist_id}","starred_url":"https://api.github.com/users/russelleh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/russelleh/subscriptions","organizations_url":"https://api.github.com/users/russelleh/orgs","repos_url":"https://api.github.com/users/russelleh/repos","events_url":"https://api.github.com/users/russelleh/events{/privacy}","received_events_url":"https://api.github.com/users/russelleh/received_events","type":"User","site_admin":false},{"login":"AtmaVichara","id":7635493,"avatar_url":"https://avatars1.githubusercontent.com/u/7635493?v=4","gravatar_id":"","url":"https://api.github.com/users/AtmaVichara","html_url":"https://github.com/AtmaVichara","followers_url":"https://api.github.com/users/AtmaVichara/followers","following_url":"https://api.github.com/users/AtmaVichara/following{/other_user}","gists_url":"https://api.github.com/users/AtmaVichara/gists{/gist_id}","starred_url":"https://api.github.com/users/AtmaVichara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AtmaVichara/subscriptions","organizations_url":"https://api.github.com/users/AtmaVichara/orgs","repos_url":"https://api.github.com/users/AtmaVichara/repos","events_url":"https://api.github.com/users/AtmaVichara/events{/privacy}","received_events_url":"https://api.github.com/users/AtmaVichara/received_events","type":"User","site_admin":false},{"login":"Mij-Strebor","id":17260842,"avatar_url":"https://avatars2.githubusercontent.com/u/17260842?v=4","gravatar_id":"","url":"https://api.github.com/users/Mij-Strebor","html_url":"https://github.com/Mij-Strebor","followers_url":"https://api.github.com/users/Mij-Strebor/followers","following_url":"https://api.github.com/users/Mij-Strebor/following{/other_user}","gists_url":"https://api.github.com/users/Mij-Strebor/gists{/gist_id}","starred_url":"https://api.github.com/users/Mij-Strebor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mij-Strebor/subscriptions","organizations_url":"https://api.github.com/users/Mij-Strebor/orgs","repos_url":"https://api.github.com/users/Mij-Strebor/repos","events_url":"https://api.github.com/users/Mij-Strebor/events{/privacy}","received_events_url":"https://api.github.com/users/Mij-Strebor/received_events","type":"User","site_admin":false},{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:18 GMT
+  recorded_at: Fri, 11 May 2018 05:25:14 GMT
 - request:
     method: get
     uri: https://api.github.com/users/patmaddox
@@ -99,7 +99,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:18 GMT
+      - Fri, 11 May 2018 05:25:14 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -109,9 +109,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4491'
+      - '4942'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -146,16 +146,16 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.033551'
+      - '0.043473'
       X-Github-Request-Id:
-      - C848:0641:1551F35:3196069:5AF51822
+      - C91A:0642:1E7C4C0:45635D6:5AF5293A
     body:
       encoding: ASCII-8BIT
       string: '{"login":"patmaddox","id":1111,"avatar_url":"https://avatars2.githubusercontent.com/u/1111?v=4","gravatar_id":"","url":"https://api.github.com/users/patmaddox","html_url":"https://github.com/patmaddox","followers_url":"https://api.github.com/users/patmaddox/followers","following_url":"https://api.github.com/users/patmaddox/following{/other_user}","gists_url":"https://api.github.com/users/patmaddox/gists{/gist_id}","starred_url":"https://api.github.com/users/patmaddox/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patmaddox/subscriptions","organizations_url":"https://api.github.com/users/patmaddox/orgs","repos_url":"https://api.github.com/users/patmaddox/repos","events_url":"https://api.github.com/users/patmaddox/events{/privacy}","received_events_url":"https://api.github.com/users/patmaddox/received_events","type":"User","site_admin":false,"name":"Pat
         Maddox","company":"@adorableio ","blog":"https://www.rubysteps.com","location":"Salt
         Lake City","email":"pat@rubysteps.com","hireable":null,"bio":null,"public_repos":118,"public_gists":131,"followers":231,"following":86,"created_at":"2008-02-27T17:47:54Z","updated_at":"2018-05-09T09:49:34Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:18 GMT
+  recorded_at: Fri, 11 May 2018 05:25:14 GMT
 - request:
     method: get
     uri: https://api.github.com/users/shanewholloway
@@ -179,7 +179,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:19 GMT
+      - Fri, 11 May 2018 05:25:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -189,9 +189,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4490'
+      - '4941'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -226,16 +226,16 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.034189'
+      - '0.033021'
       X-Github-Request-Id:
-      - C849:0644:391E7E2:6DA1847:5AF51823
+      - C91B:0644:39FBBBB:6F3DF8A:5AF5293B
     body:
       encoding: ASCII-8BIT
       string: '{"login":"shanewholloway","id":210197,"avatar_url":"https://avatars1.githubusercontent.com/u/210197?v=4","gravatar_id":"","url":"https://api.github.com/users/shanewholloway","html_url":"https://github.com/shanewholloway","followers_url":"https://api.github.com/users/shanewholloway/followers","following_url":"https://api.github.com/users/shanewholloway/following{/other_user}","gists_url":"https://api.github.com/users/shanewholloway/gists{/gist_id}","starred_url":"https://api.github.com/users/shanewholloway/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shanewholloway/subscriptions","organizations_url":"https://api.github.com/users/shanewholloway/orgs","repos_url":"https://api.github.com/users/shanewholloway/repos","events_url":"https://api.github.com/users/shanewholloway/events{/privacy}","received_events_url":"https://api.github.com/users/shanewholloway/received_events","type":"User","site_admin":false,"name":"Shane
         Holloway","company":null,"blog":"http://shaneholloway.com","location":"Colorado
         Springs, CO","email":"shane.holloway@ieee.org","hireable":true,"bio":null,"public_repos":83,"public_gists":28,"followers":23,"following":60,"created_at":"2010-02-24T19:46:23Z","updated_at":"2018-05-08T16:33:16Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:19 GMT
+  recorded_at: Fri, 11 May 2018 05:25:15 GMT
 - request:
     method: get
     uri: https://api.github.com/users/richhaase
@@ -259,7 +259,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:19 GMT
+      - Fri, 11 May 2018 05:25:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -269,9 +269,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4489'
+      - '4940'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -306,15 +306,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.050093'
+      - '0.044763'
       X-Github-Request-Id:
-      - C84A:0643:2BA2F57:5C183AA:5AF51823
+      - C91C:0644:39FBC09:6F3E002:5AF5293B
     body:
       encoding: ASCII-8BIT
       string: '{"login":"richhaase","id":987317,"avatar_url":"https://avatars0.githubusercontent.com/u/987317?v=4","gravatar_id":"","url":"https://api.github.com/users/richhaase","html_url":"https://github.com/richhaase","followers_url":"https://api.github.com/users/richhaase/followers","following_url":"https://api.github.com/users/richhaase/following{/other_user}","gists_url":"https://api.github.com/users/richhaase/gists{/gist_id}","starred_url":"https://api.github.com/users/richhaase/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/richhaase/subscriptions","organizations_url":"https://api.github.com/users/richhaase/orgs","repos_url":"https://api.github.com/users/richhaase/repos","events_url":"https://api.github.com/users/richhaase/events{/privacy}","received_events_url":"https://api.github.com/users/richhaase/received_events","type":"User","site_admin":false,"name":"Rich
         Haase","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":14,"public_gists":0,"followers":4,"following":4,"created_at":"2011-08-17T22:42:04Z","updated_at":"2018-05-08T21:41:17Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:19 GMT
+  recorded_at: Fri, 11 May 2018 05:25:15 GMT
 - request:
     method: get
     uri: https://api.github.com/users/russelleh
@@ -338,7 +338,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:19 GMT
+      - Fri, 11 May 2018 05:25:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -348,9 +348,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4488'
+      - '4939'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -385,15 +385,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.038025'
+      - '0.040172'
       X-Github-Request-Id:
-      - C84B:0643:2BA2F89:5C18418:5AF51823
+      - C91D:0641:158EA8B:322A05F:5AF5293B
     body:
       encoding: ASCII-8BIT
       string: '{"login":"russelleh","id":7073471,"avatar_url":"https://avatars1.githubusercontent.com/u/7073471?v=4","gravatar_id":"","url":"https://api.github.com/users/russelleh","html_url":"https://github.com/russelleh","followers_url":"https://api.github.com/users/russelleh/followers","following_url":"https://api.github.com/users/russelleh/following{/other_user}","gists_url":"https://api.github.com/users/russelleh/gists{/gist_id}","starred_url":"https://api.github.com/users/russelleh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/russelleh/subscriptions","organizations_url":"https://api.github.com/users/russelleh/orgs","repos_url":"https://api.github.com/users/russelleh/repos","events_url":"https://api.github.com/users/russelleh/events{/privacy}","received_events_url":"https://api.github.com/users/russelleh/received_events","type":"User","site_admin":false,"name":"Russell
         E H","company":null,"blog":"","location":null,"email":"russell.west.eh@gmail.com","hireable":null,"bio":null,"public_repos":61,"public_gists":8,"followers":5,"following":0,"created_at":"2014-03-26T18:33:38Z","updated_at":"2018-03-15T16:54:33Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:19 GMT
+  recorded_at: Fri, 11 May 2018 05:25:15 GMT
 - request:
     method: get
     uri: https://api.github.com/users/AtmaVichara
@@ -417,7 +417,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:20 GMT
+      - Fri, 11 May 2018 05:25:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -427,9 +427,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4487'
+      - '4938'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -464,16 +464,16 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.040595'
+      - '0.046417'
       X-Github-Request-Id:
-      - C84C:0644:391E8F3:6DA19FA:5AF51823
+      - C91E:0642:1E7C53C:45636FB:5AF5293B
     body:
       encoding: ASCII-8BIT
       string: '{"login":"AtmaVichara","id":7635493,"avatar_url":"https://avatars1.githubusercontent.com/u/7635493?v=4","gravatar_id":"","url":"https://api.github.com/users/AtmaVichara","html_url":"https://github.com/AtmaVichara","followers_url":"https://api.github.com/users/AtmaVichara/followers","following_url":"https://api.github.com/users/AtmaVichara/following{/other_user}","gists_url":"https://api.github.com/users/AtmaVichara/gists{/gist_id}","starred_url":"https://api.github.com/users/AtmaVichara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AtmaVichara/subscriptions","organizations_url":"https://api.github.com/users/AtmaVichara/orgs","repos_url":"https://api.github.com/users/AtmaVichara/repos","events_url":"https://api.github.com/users/AtmaVichara/events{/privacy}","received_events_url":"https://api.github.com/users/AtmaVichara/received_events","type":"User","site_admin":false,"name":"Joseph
         Jobes","company":null,"blog":"","location":null,"email":"jmrjobes@gmail.com","hireable":null,"bio":"Software
         Developer attending Turing\r\n@JosephJobes on slack","public_repos":58,"public_gists":20,"followers":6,"following":4,"created_at":"2014-05-19T21:35:43Z","updated_at":"2018-04-06T15:25:49Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:20 GMT
+  recorded_at: Fri, 11 May 2018 05:25:16 GMT
 - request:
     method: get
     uri: https://api.github.com/users/Mij-Strebor
@@ -497,7 +497,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:20 GMT
+      - Fri, 11 May 2018 05:25:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -507,9 +507,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4486'
+      - '4937'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -544,15 +544,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.035763'
+      - '0.044058'
       X-Github-Request-Id:
-      - C84D:0643:2BA2FEE:5C1850E:5AF51824
+      - C91F:0644:39FBCCD:6F3E162:5AF5293C
     body:
       encoding: ASCII-8BIT
       string: '{"login":"Mij-Strebor","id":17260842,"avatar_url":"https://avatars2.githubusercontent.com/u/17260842?v=4","gravatar_id":"","url":"https://api.github.com/users/Mij-Strebor","html_url":"https://github.com/Mij-Strebor","followers_url":"https://api.github.com/users/Mij-Strebor/followers","following_url":"https://api.github.com/users/Mij-Strebor/following{/other_user}","gists_url":"https://api.github.com/users/Mij-Strebor/gists{/gist_id}","starred_url":"https://api.github.com/users/Mij-Strebor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mij-Strebor/subscriptions","organizations_url":"https://api.github.com/users/Mij-Strebor/orgs","repos_url":"https://api.github.com/users/Mij-Strebor/repos","events_url":"https://api.github.com/users/Mij-Strebor/events{/privacy}","received_events_url":"https://api.github.com/users/Mij-Strebor/received_events","type":"User","site_admin":false,"name":"Jim
         Roberts","company":null,"blog":"","location":"Salt Lake City, UT","email":"jim.roberts.tech@gmail.com","hireable":null,"bio":null,"public_repos":1,"public_gists":0,"followers":1,"following":1,"created_at":"2016-02-15T23:10:28Z","updated_at":"2017-07-31T21:51:35Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:20 GMT
+  recorded_at: Fri, 11 May 2018 05:25:16 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini
@@ -576,7 +576,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:20 GMT
+      - Fri, 11 May 2018 05:25:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -586,9 +586,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4485'
+      - '4936'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -623,15 +623,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.039390'
+      - '0.044195'
       X-Github-Request-Id:
-      - C84E:0644:391E994:6DA1B0C:5AF51824
+      - C920:0642:1E7C583:4563791:5AF5293C
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:20 GMT
+  recorded_at: Fri, 11 May 2018 05:25:16 GMT
 - request:
     method: get
     uri: https://api.github.com/users/plato721/following
@@ -655,7 +655,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:21 GMT
+      - Fri, 11 May 2018 05:25:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -665,9 +665,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4484'
+      - '4935'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -700,14 +700,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.032151'
+      - '0.043228'
       X-Github-Request-Id:
-      - C84F:0642:1E18C04:44796C6:5AF51824
+      - C921:0644:39FBD51:6F3E249:5AF5293C
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"patmaddox","id":1111,"avatar_url":"https://avatars2.githubusercontent.com/u/1111?v=4","gravatar_id":"","url":"https://api.github.com/users/patmaddox","html_url":"https://github.com/patmaddox","followers_url":"https://api.github.com/users/patmaddox/followers","following_url":"https://api.github.com/users/patmaddox/following{/other_user}","gists_url":"https://api.github.com/users/patmaddox/gists{/gist_id}","starred_url":"https://api.github.com/users/patmaddox/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patmaddox/subscriptions","organizations_url":"https://api.github.com/users/patmaddox/orgs","repos_url":"https://api.github.com/users/patmaddox/repos","events_url":"https://api.github.com/users/patmaddox/events{/privacy}","received_events_url":"https://api.github.com/users/patmaddox/received_events","type":"User","site_admin":false},{"login":"shanewholloway","id":210197,"avatar_url":"https://avatars1.githubusercontent.com/u/210197?v=4","gravatar_id":"","url":"https://api.github.com/users/shanewholloway","html_url":"https://github.com/shanewholloway","followers_url":"https://api.github.com/users/shanewholloway/followers","following_url":"https://api.github.com/users/shanewholloway/following{/other_user}","gists_url":"https://api.github.com/users/shanewholloway/gists{/gist_id}","starred_url":"https://api.github.com/users/shanewholloway/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shanewholloway/subscriptions","organizations_url":"https://api.github.com/users/shanewholloway/orgs","repos_url":"https://api.github.com/users/shanewholloway/repos","events_url":"https://api.github.com/users/shanewholloway/events{/privacy}","received_events_url":"https://api.github.com/users/shanewholloway/received_events","type":"User","site_admin":false},{"login":"richhaase","id":987317,"avatar_url":"https://avatars0.githubusercontent.com/u/987317?v=4","gravatar_id":"","url":"https://api.github.com/users/richhaase","html_url":"https://github.com/richhaase","followers_url":"https://api.github.com/users/richhaase/followers","following_url":"https://api.github.com/users/richhaase/following{/other_user}","gists_url":"https://api.github.com/users/richhaase/gists{/gist_id}","starred_url":"https://api.github.com/users/richhaase/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/richhaase/subscriptions","organizations_url":"https://api.github.com/users/richhaase/orgs","repos_url":"https://api.github.com/users/richhaase/repos","events_url":"https://api.github.com/users/richhaase/events{/privacy}","received_events_url":"https://api.github.com/users/richhaase/received_events","type":"User","site_admin":false},{"login":"russelleh","id":7073471,"avatar_url":"https://avatars1.githubusercontent.com/u/7073471?v=4","gravatar_id":"","url":"https://api.github.com/users/russelleh","html_url":"https://github.com/russelleh","followers_url":"https://api.github.com/users/russelleh/followers","following_url":"https://api.github.com/users/russelleh/following{/other_user}","gists_url":"https://api.github.com/users/russelleh/gists{/gist_id}","starred_url":"https://api.github.com/users/russelleh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/russelleh/subscriptions","organizations_url":"https://api.github.com/users/russelleh/orgs","repos_url":"https://api.github.com/users/russelleh/repos","events_url":"https://api.github.com/users/russelleh/events{/privacy}","received_events_url":"https://api.github.com/users/russelleh/received_events","type":"User","site_admin":false},{"login":"AtmaVichara","id":7635493,"avatar_url":"https://avatars1.githubusercontent.com/u/7635493?v=4","gravatar_id":"","url":"https://api.github.com/users/AtmaVichara","html_url":"https://github.com/AtmaVichara","followers_url":"https://api.github.com/users/AtmaVichara/followers","following_url":"https://api.github.com/users/AtmaVichara/following{/other_user}","gists_url":"https://api.github.com/users/AtmaVichara/gists{/gist_id}","starred_url":"https://api.github.com/users/AtmaVichara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AtmaVichara/subscriptions","organizations_url":"https://api.github.com/users/AtmaVichara/orgs","repos_url":"https://api.github.com/users/AtmaVichara/repos","events_url":"https://api.github.com/users/AtmaVichara/events{/privacy}","received_events_url":"https://api.github.com/users/AtmaVichara/received_events","type":"User","site_admin":false},{"login":"Mij-Strebor","id":17260842,"avatar_url":"https://avatars2.githubusercontent.com/u/17260842?v=4","gravatar_id":"","url":"https://api.github.com/users/Mij-Strebor","html_url":"https://github.com/Mij-Strebor","followers_url":"https://api.github.com/users/Mij-Strebor/followers","following_url":"https://api.github.com/users/Mij-Strebor/following{/other_user}","gists_url":"https://api.github.com/users/Mij-Strebor/gists{/gist_id}","starred_url":"https://api.github.com/users/Mij-Strebor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mij-Strebor/subscriptions","organizations_url":"https://api.github.com/users/Mij-Strebor/orgs","repos_url":"https://api.github.com/users/Mij-Strebor/repos","events_url":"https://api.github.com/users/Mij-Strebor/events{/privacy}","received_events_url":"https://api.github.com/users/Mij-Strebor/received_events","type":"User","site_admin":false},{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:21 GMT
+  recorded_at: Fri, 11 May 2018 05:25:16 GMT
 - request:
     method: get
     uri: https://api.github.com/users/patmaddox
@@ -731,7 +731,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:21 GMT
+      - Fri, 11 May 2018 05:25:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -741,9 +741,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4483'
+      - '4934'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -778,16 +778,16 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.048727'
+      - '0.049424'
       X-Github-Request-Id:
-      - C850:0644:391EA1E:6DA1BFB:5AF51825
+      - C922:0643:2C417B2:5D6AA4C:5AF5293D
     body:
       encoding: ASCII-8BIT
       string: '{"login":"patmaddox","id":1111,"avatar_url":"https://avatars2.githubusercontent.com/u/1111?v=4","gravatar_id":"","url":"https://api.github.com/users/patmaddox","html_url":"https://github.com/patmaddox","followers_url":"https://api.github.com/users/patmaddox/followers","following_url":"https://api.github.com/users/patmaddox/following{/other_user}","gists_url":"https://api.github.com/users/patmaddox/gists{/gist_id}","starred_url":"https://api.github.com/users/patmaddox/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/patmaddox/subscriptions","organizations_url":"https://api.github.com/users/patmaddox/orgs","repos_url":"https://api.github.com/users/patmaddox/repos","events_url":"https://api.github.com/users/patmaddox/events{/privacy}","received_events_url":"https://api.github.com/users/patmaddox/received_events","type":"User","site_admin":false,"name":"Pat
         Maddox","company":"@adorableio ","blog":"https://www.rubysteps.com","location":"Salt
         Lake City","email":"pat@rubysteps.com","hireable":null,"bio":null,"public_repos":118,"public_gists":131,"followers":231,"following":86,"created_at":"2008-02-27T17:47:54Z","updated_at":"2018-05-09T09:49:34Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:21 GMT
+  recorded_at: Fri, 11 May 2018 05:25:17 GMT
 - request:
     method: get
     uri: https://api.github.com/users/shanewholloway
@@ -811,7 +811,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:21 GMT
+      - Fri, 11 May 2018 05:25:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -821,9 +821,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4482'
+      - '4933'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -858,16 +858,16 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.052563'
+      - '0.040296'
       X-Github-Request-Id:
-      - C851:0644:391EA69:6DA1C65:5AF51825
+      - C923:0644:39FBDDA:6F3E335:5AF5293D
     body:
       encoding: ASCII-8BIT
       string: '{"login":"shanewholloway","id":210197,"avatar_url":"https://avatars1.githubusercontent.com/u/210197?v=4","gravatar_id":"","url":"https://api.github.com/users/shanewholloway","html_url":"https://github.com/shanewholloway","followers_url":"https://api.github.com/users/shanewholloway/followers","following_url":"https://api.github.com/users/shanewholloway/following{/other_user}","gists_url":"https://api.github.com/users/shanewholloway/gists{/gist_id}","starred_url":"https://api.github.com/users/shanewholloway/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shanewholloway/subscriptions","organizations_url":"https://api.github.com/users/shanewholloway/orgs","repos_url":"https://api.github.com/users/shanewholloway/repos","events_url":"https://api.github.com/users/shanewholloway/events{/privacy}","received_events_url":"https://api.github.com/users/shanewholloway/received_events","type":"User","site_admin":false,"name":"Shane
         Holloway","company":null,"blog":"http://shaneholloway.com","location":"Colorado
         Springs, CO","email":"shane.holloway@ieee.org","hireable":true,"bio":null,"public_repos":83,"public_gists":28,"followers":23,"following":60,"created_at":"2010-02-24T19:46:23Z","updated_at":"2018-05-08T16:33:16Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:21 GMT
+  recorded_at: Fri, 11 May 2018 05:25:17 GMT
 - request:
     method: get
     uri: https://api.github.com/users/richhaase
@@ -891,7 +891,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:21 GMT
+      - Fri, 11 May 2018 05:25:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -901,9 +901,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4481'
+      - '4932'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -938,15 +938,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.034114'
+      - '0.044818'
       X-Github-Request-Id:
-      - C852:0644:391EABA:6DA1CF8:5AF51825
+      - C924:0642:1E7C601:456388F:5AF5293D
     body:
       encoding: ASCII-8BIT
       string: '{"login":"richhaase","id":987317,"avatar_url":"https://avatars0.githubusercontent.com/u/987317?v=4","gravatar_id":"","url":"https://api.github.com/users/richhaase","html_url":"https://github.com/richhaase","followers_url":"https://api.github.com/users/richhaase/followers","following_url":"https://api.github.com/users/richhaase/following{/other_user}","gists_url":"https://api.github.com/users/richhaase/gists{/gist_id}","starred_url":"https://api.github.com/users/richhaase/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/richhaase/subscriptions","organizations_url":"https://api.github.com/users/richhaase/orgs","repos_url":"https://api.github.com/users/richhaase/repos","events_url":"https://api.github.com/users/richhaase/events{/privacy}","received_events_url":"https://api.github.com/users/richhaase/received_events","type":"User","site_admin":false,"name":"Rich
         Haase","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":14,"public_gists":0,"followers":4,"following":4,"created_at":"2011-08-17T22:42:04Z","updated_at":"2018-05-08T21:41:17Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:21 GMT
+  recorded_at: Fri, 11 May 2018 05:25:17 GMT
 - request:
     method: get
     uri: https://api.github.com/users/russelleh
@@ -970,7 +970,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:22 GMT
+      - Fri, 11 May 2018 05:25:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -980,9 +980,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4480'
+      - '4931'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -1017,15 +1017,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.035831'
+      - '0.040471'
       X-Github-Request-Id:
-      - C853:0642:1E18C5A:44797E0:5AF51826
+      - C925:0643:2C41816:5D6AB4E:5AF5293D
     body:
       encoding: ASCII-8BIT
       string: '{"login":"russelleh","id":7073471,"avatar_url":"https://avatars1.githubusercontent.com/u/7073471?v=4","gravatar_id":"","url":"https://api.github.com/users/russelleh","html_url":"https://github.com/russelleh","followers_url":"https://api.github.com/users/russelleh/followers","following_url":"https://api.github.com/users/russelleh/following{/other_user}","gists_url":"https://api.github.com/users/russelleh/gists{/gist_id}","starred_url":"https://api.github.com/users/russelleh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/russelleh/subscriptions","organizations_url":"https://api.github.com/users/russelleh/orgs","repos_url":"https://api.github.com/users/russelleh/repos","events_url":"https://api.github.com/users/russelleh/events{/privacy}","received_events_url":"https://api.github.com/users/russelleh/received_events","type":"User","site_admin":false,"name":"Russell
         E H","company":null,"blog":"","location":null,"email":"russell.west.eh@gmail.com","hireable":null,"bio":null,"public_repos":61,"public_gists":8,"followers":5,"following":0,"created_at":"2014-03-26T18:33:38Z","updated_at":"2018-03-15T16:54:33Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:22 GMT
+  recorded_at: Fri, 11 May 2018 05:25:18 GMT
 - request:
     method: get
     uri: https://api.github.com/users/AtmaVichara
@@ -1049,7 +1049,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:22 GMT
+      - Fri, 11 May 2018 05:25:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1059,9 +1059,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4479'
+      - '4930'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -1096,16 +1096,16 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.032457'
+      - '0.037680'
       X-Github-Request-Id:
-      - C854:0644:391EB2F:6DA1DC7:5AF51826
+      - C926:0641:158EB0A:322A19B:5AF5293E
     body:
       encoding: ASCII-8BIT
       string: '{"login":"AtmaVichara","id":7635493,"avatar_url":"https://avatars1.githubusercontent.com/u/7635493?v=4","gravatar_id":"","url":"https://api.github.com/users/AtmaVichara","html_url":"https://github.com/AtmaVichara","followers_url":"https://api.github.com/users/AtmaVichara/followers","following_url":"https://api.github.com/users/AtmaVichara/following{/other_user}","gists_url":"https://api.github.com/users/AtmaVichara/gists{/gist_id}","starred_url":"https://api.github.com/users/AtmaVichara/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AtmaVichara/subscriptions","organizations_url":"https://api.github.com/users/AtmaVichara/orgs","repos_url":"https://api.github.com/users/AtmaVichara/repos","events_url":"https://api.github.com/users/AtmaVichara/events{/privacy}","received_events_url":"https://api.github.com/users/AtmaVichara/received_events","type":"User","site_admin":false,"name":"Joseph
         Jobes","company":null,"blog":"","location":null,"email":"jmrjobes@gmail.com","hireable":null,"bio":"Software
         Developer attending Turing\r\n@JosephJobes on slack","public_repos":58,"public_gists":20,"followers":6,"following":4,"created_at":"2014-05-19T21:35:43Z","updated_at":"2018-04-06T15:25:49Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:22 GMT
+  recorded_at: Fri, 11 May 2018 05:25:18 GMT
 - request:
     method: get
     uri: https://api.github.com/users/Mij-Strebor
@@ -1129,7 +1129,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:22 GMT
+      - Fri, 11 May 2018 05:25:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1139,9 +1139,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4478'
+      - '4929'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -1176,15 +1176,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.035542'
+      - '0.047317'
       X-Github-Request-Id:
-      - C855:0643:2BA3123:5C187E0:5AF51826
+      - C927:0641:158EB12:322A1C1:5AF5293E
     body:
       encoding: ASCII-8BIT
       string: '{"login":"Mij-Strebor","id":17260842,"avatar_url":"https://avatars2.githubusercontent.com/u/17260842?v=4","gravatar_id":"","url":"https://api.github.com/users/Mij-Strebor","html_url":"https://github.com/Mij-Strebor","followers_url":"https://api.github.com/users/Mij-Strebor/followers","following_url":"https://api.github.com/users/Mij-Strebor/following{/other_user}","gists_url":"https://api.github.com/users/Mij-Strebor/gists{/gist_id}","starred_url":"https://api.github.com/users/Mij-Strebor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Mij-Strebor/subscriptions","organizations_url":"https://api.github.com/users/Mij-Strebor/orgs","repos_url":"https://api.github.com/users/Mij-Strebor/repos","events_url":"https://api.github.com/users/Mij-Strebor/events{/privacy}","received_events_url":"https://api.github.com/users/Mij-Strebor/received_events","type":"User","site_admin":false,"name":"Jim
         Roberts","company":null,"blog":"","location":"Salt Lake City, UT","email":"jim.roberts.tech@gmail.com","hireable":null,"bio":null,"public_repos":1,"public_gists":0,"followers":1,"following":1,"created_at":"2016-02-15T23:10:28Z","updated_at":"2017-07-31T21:51:35Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:22 GMT
+  recorded_at: Fri, 11 May 2018 05:25:18 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini
@@ -1208,7 +1208,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:23 GMT
+      - Fri, 11 May 2018 05:25:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1218,9 +1218,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4477'
+      - '4928'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -1255,13 +1255,13 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.034019'
+      - '0.040126'
       X-Github-Request-Id:
-      - C856:0642:1E18C8E:447987A:5AF51826
+      - C928:0643:2C4186B:5D6AC34:5AF5293E
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:23 GMT
+  recorded_at: Fri, 11 May 2018 05:25:19 GMT
 recorded_with: VCR 4.0.0

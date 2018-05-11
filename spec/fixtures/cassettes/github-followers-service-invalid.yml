@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:24 GMT
+      - Fri, 11 May 2018 05:25:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4472'
+      - '4923'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -62,14 +62,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.025350'
+      - '0.027894'
       X-Github-Request-Id:
-      - C85B:0644:391ED2F:6DA2108:5AF51828
+      - C92D:0644:39FC05B:6F3E7AE:5AF52940
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/users/followers/#list-followers-of-a-user"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:24 GMT
+  recorded_at: Fri, 11 May 2018 05:25:20 GMT
 - request:
     method: get
     uri: https://api.github.com/users/asdfklajsdfnasd/followers
@@ -93,7 +93,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:24 GMT
+      - Fri, 11 May 2018 05:25:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -103,9 +103,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4471'
+      - '4922'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -132,12 +132,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.028557'
+      - '0.023426'
       X-Github-Request-Id:
-      - C85C:0644:391ED72:6DA2172:5AF51828
+      - C92E:0644:39FC0A8:6F3E826:5AF52940
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/users/followers/#list-followers-of-a-user"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:24 GMT
+  recorded_at: Fri, 11 May 2018 05:25:20 GMT
 recorded_with: VCR 4.0.0
