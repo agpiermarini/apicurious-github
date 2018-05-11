@@ -18,13 +18,15 @@ describe GithubUserService do
           expect(subject.user).to have_key :bio
         end
       end
+    end
+  end
 
-      # How to have a different subject with invalid username
-      skip 'is informed when user invalid' do
-        VCR.use_cassette("github-user-service-invalid") do
-          expect(subject.user).to be_a Hash
-          expect(subject.user).to have_key :message
-        end
+  context 'invalid user endpoint' do
+    it 'is informed when user invalid' do
+      VCR.use_cassette("github-user-service-invalid") do
+        invalid_subject = GithubUserService.new("alsdjfaklsdfasdfgd", ENV["github_token"])
+        expect(invalid_subject.user).to be_a Hash
+        expect(invalid_subject.user).to have_key :message
       end
     end
   end

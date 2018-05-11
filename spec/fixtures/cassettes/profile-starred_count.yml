@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.github.com/users/agpiermarini/starred
+    uri: https://api.github.com/users/agpiermarini/starred?sort=updated
     body:
       encoding: US-ASCII
       string: ''
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 02:12:00 GMT
+      - Fri, 11 May 2018 04:12:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4956'
+      - '4501'
       X-Ratelimit-Reset:
-      - '1526006562'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -68,12 +68,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.021064'
+      - '0.025134'
       X-Github-Request-Id:
-      - E2B9:0644:37B89BF:6AFC61E:5AF4FBF0
+      - C83E:0642:1E18A65:4479247:5AF5181F
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Fri, 11 May 2018 02:12:00 GMT
+  recorded_at: Fri, 11 May 2018 04:12:15 GMT
 recorded_with: VCR 4.0.0
