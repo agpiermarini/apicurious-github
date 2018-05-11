@@ -24,4 +24,8 @@ class Profile
     @following_quantity = profile_info[:following]
     @message = profile_info[:message]
   end
+
+  def starred_count(username, token)
+    @starred_cout ||= StarredSearch.new(username, token).repo_count
+  end
 end

@@ -4,20 +4,22 @@ class StarredSearch
     @token = token
   end
 
+  def repo_count
+    starred_service.starred_repo_info.count
+  end
+
   def repos
-    connection = Faraday.new "https://api.github.com/users/#{username}/starred"
+    starred_repo_info = starred_service.starred_repo_info
 
-    response = connection.get do | req |
-      req.headers["Authorization"] = "token #{token}"
-    end
-
-    starred_info = JSON.parse(response.body, symbolize_names: true)
-
-    starred_info.map do | repo_info |
+    starred_repo_info.map do | repo_info |
       Repository.new(repo_info)
     end
   end
 
   private
   attr_reader :username, :token
+
+  def starred_service
+    @starred_service ||= GithubStarredService.new(username, token)
+  end
 end

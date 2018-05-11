@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 21:49:11 GMT
+      - Fri, 11 May 2018 02:11:55 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4867'
+      - '4968'
       X-Ratelimit-Reset:
-      - '1525990997'
+      - '1526006562'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -70,15 +70,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.035384'
+      - '0.041912'
       X-Github-Request-Id:
-      - E1C1:5660:A64F42:198E08F:5AF4BE57
+      - E2AD:0642:1D71EEC:42F48D3:5AF4FBEB
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 21:49:11 GMT
+  recorded_at: Fri, 11 May 2018 02:11:55 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini/repos?sort=updated
@@ -102,7 +102,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 21:49:12 GMT
+      - Fri, 11 May 2018 02:11:55 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -112,9 +112,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4866'
+      - '4967'
       X-Ratelimit-Reset:
-      - '1525990997'
+      - '1526006562'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -150,9 +150,9 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.192169'
+      - '0.168857'
       X-Github-Request-Id:
-      - E1C2:5663:1C58A4D:3BCC22A:5AF4BE57
+      - E2AE:0643:2A9E6C5:59EB35E:5AF4FBEB
     body:
       encoding: ASCII-8BIT
       string: '[{"id":132697165,"name":"apicurious-github","full_name":"agpiermarini/apicurious-github","owner":{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/agpiermarini/apicurious-github","description":"Turing
@@ -174,5 +174,81 @@ http_interactions:
         1 Week 2 Individual Project","fork":false,"url":"https://api.github.com/repos/agpiermarini/perilous-journey","forks_url":"https://api.github.com/repos/agpiermarini/perilous-journey/forks","keys_url":"https://api.github.com/repos/agpiermarini/perilous-journey/keys{/key_id}","collaborators_url":"https://api.github.com/repos/agpiermarini/perilous-journey/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/agpiermarini/perilous-journey/teams","hooks_url":"https://api.github.com/repos/agpiermarini/perilous-journey/hooks","issue_events_url":"https://api.github.com/repos/agpiermarini/perilous-journey/issues/events{/number}","events_url":"https://api.github.com/repos/agpiermarini/perilous-journey/events","assignees_url":"https://api.github.com/repos/agpiermarini/perilous-journey/assignees{/user}","branches_url":"https://api.github.com/repos/agpiermarini/perilous-journey/branches{/branch}","tags_url":"https://api.github.com/repos/agpiermarini/perilous-journey/tags","blobs_url":"https://api.github.com/repos/agpiermarini/perilous-journey/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/agpiermarini/perilous-journey/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/agpiermarini/perilous-journey/git/refs{/sha}","trees_url":"https://api.github.com/repos/agpiermarini/perilous-journey/git/trees{/sha}","statuses_url":"https://api.github.com/repos/agpiermarini/perilous-journey/statuses/{sha}","languages_url":"https://api.github.com/repos/agpiermarini/perilous-journey/languages","stargazers_url":"https://api.github.com/repos/agpiermarini/perilous-journey/stargazers","contributors_url":"https://api.github.com/repos/agpiermarini/perilous-journey/contributors","subscribers_url":"https://api.github.com/repos/agpiermarini/perilous-journey/subscribers","subscription_url":"https://api.github.com/repos/agpiermarini/perilous-journey/subscription","commits_url":"https://api.github.com/repos/agpiermarini/perilous-journey/commits{/sha}","git_commits_url":"https://api.github.com/repos/agpiermarini/perilous-journey/git/commits{/sha}","comments_url":"https://api.github.com/repos/agpiermarini/perilous-journey/comments{/number}","issue_comment_url":"https://api.github.com/repos/agpiermarini/perilous-journey/issues/comments{/number}","contents_url":"https://api.github.com/repos/agpiermarini/perilous-journey/contents/{+path}","compare_url":"https://api.github.com/repos/agpiermarini/perilous-journey/compare/{base}...{head}","merges_url":"https://api.github.com/repos/agpiermarini/perilous-journey/merges","archive_url":"https://api.github.com/repos/agpiermarini/perilous-journey/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/agpiermarini/perilous-journey/downloads","issues_url":"https://api.github.com/repos/agpiermarini/perilous-journey/issues{/number}","pulls_url":"https://api.github.com/repos/agpiermarini/perilous-journey/pulls{/number}","milestones_url":"https://api.github.com/repos/agpiermarini/perilous-journey/milestones{/number}","notifications_url":"https://api.github.com/repos/agpiermarini/perilous-journey/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/agpiermarini/perilous-journey/labels{/name}","releases_url":"https://api.github.com/repos/agpiermarini/perilous-journey/releases{/id}","deployments_url":"https://api.github.com/repos/agpiermarini/perilous-journey/deployments","created_at":"2018-01-30T03:40:19Z","updated_at":"2018-02-21T22:47:04Z","pushed_at":"2018-02-01T13:50:49Z","git_url":"git://github.com/agpiermarini/perilous-journey.git","ssh_url":"git@github.com:agpiermarini/perilous-journey.git","clone_url":"https://github.com/agpiermarini/perilous-journey.git","svn_url":"https://github.com/agpiermarini/perilous-journey","homepage":"","size":21,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":118851900,"name":"guessing-game","full_name":"agpiermarini/guessing-game","owner":{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/agpiermarini/guessing-game","description":"Turing
         School Module 1 Pre-Work","fork":false,"url":"https://api.github.com/repos/agpiermarini/guessing-game","forks_url":"https://api.github.com/repos/agpiermarini/guessing-game/forks","keys_url":"https://api.github.com/repos/agpiermarini/guessing-game/keys{/key_id}","collaborators_url":"https://api.github.com/repos/agpiermarini/guessing-game/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/agpiermarini/guessing-game/teams","hooks_url":"https://api.github.com/repos/agpiermarini/guessing-game/hooks","issue_events_url":"https://api.github.com/repos/agpiermarini/guessing-game/issues/events{/number}","events_url":"https://api.github.com/repos/agpiermarini/guessing-game/events","assignees_url":"https://api.github.com/repos/agpiermarini/guessing-game/assignees{/user}","branches_url":"https://api.github.com/repos/agpiermarini/guessing-game/branches{/branch}","tags_url":"https://api.github.com/repos/agpiermarini/guessing-game/tags","blobs_url":"https://api.github.com/repos/agpiermarini/guessing-game/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/agpiermarini/guessing-game/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/agpiermarini/guessing-game/git/refs{/sha}","trees_url":"https://api.github.com/repos/agpiermarini/guessing-game/git/trees{/sha}","statuses_url":"https://api.github.com/repos/agpiermarini/guessing-game/statuses/{sha}","languages_url":"https://api.github.com/repos/agpiermarini/guessing-game/languages","stargazers_url":"https://api.github.com/repos/agpiermarini/guessing-game/stargazers","contributors_url":"https://api.github.com/repos/agpiermarini/guessing-game/contributors","subscribers_url":"https://api.github.com/repos/agpiermarini/guessing-game/subscribers","subscription_url":"https://api.github.com/repos/agpiermarini/guessing-game/subscription","commits_url":"https://api.github.com/repos/agpiermarini/guessing-game/commits{/sha}","git_commits_url":"https://api.github.com/repos/agpiermarini/guessing-game/git/commits{/sha}","comments_url":"https://api.github.com/repos/agpiermarini/guessing-game/comments{/number}","issue_comment_url":"https://api.github.com/repos/agpiermarini/guessing-game/issues/comments{/number}","contents_url":"https://api.github.com/repos/agpiermarini/guessing-game/contents/{+path}","compare_url":"https://api.github.com/repos/agpiermarini/guessing-game/compare/{base}...{head}","merges_url":"https://api.github.com/repos/agpiermarini/guessing-game/merges","archive_url":"https://api.github.com/repos/agpiermarini/guessing-game/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/agpiermarini/guessing-game/downloads","issues_url":"https://api.github.com/repos/agpiermarini/guessing-game/issues{/number}","pulls_url":"https://api.github.com/repos/agpiermarini/guessing-game/pulls{/number}","milestones_url":"https://api.github.com/repos/agpiermarini/guessing-game/milestones{/number}","notifications_url":"https://api.github.com/repos/agpiermarini/guessing-game/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/agpiermarini/guessing-game/labels{/name}","releases_url":"https://api.github.com/repos/agpiermarini/guessing-game/releases{/id}","deployments_url":"https://api.github.com/repos/agpiermarini/guessing-game/deployments","created_at":"2018-01-25T02:38:11Z","updated_at":"2018-02-21T22:44:15Z","pushed_at":"2018-01-25T02:39:15Z","git_url":"git://github.com/agpiermarini/guessing-game.git","ssh_url":"git@github.com:agpiermarini/guessing-game.git","clone_url":"https://github.com/agpiermarini/guessing-game.git","svn_url":"https://github.com/agpiermarini/guessing-game","homepage":"","size":1,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}}]'
     http_version: 
-  recorded_at: Thu, 10 May 2018 21:49:12 GMT
+  recorded_at: Fri, 11 May 2018 02:11:55 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/agpiermarini/starred
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Authorization:
+      - token <GITHUB OAUTH TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 11 May 2018 02:11:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4966'
+      X-Ratelimit-Reset:
+      - '1526006562'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - '"8dc2568d4862088eac2bb1c7149e0925"'
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - bff9e878c77272925590
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.023461'
+      X-Github-Request-Id:
+      - E2AF:0643:2A9E703:59EB3F5:5AF4FBEC
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Fri, 11 May 2018 02:11:56 GMT
 recorded_with: VCR 4.0.0
