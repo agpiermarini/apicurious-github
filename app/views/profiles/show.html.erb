@@ -3,6 +3,17 @@
   <section class="other-info">
     <ul class="info">
       <%= render partial: 'layouts/user_links' %>
+      <% @push_events.each_with_index do | event, index | %>
+      <li class="push-event a<%= index %> list-panel bottom-border">
+        <%= link_to event.repo_name, "/#{@profile.username}/#{event.repo_name}", class: "repo-name" %>
+        <h6 class="event-created panel-info">Created: <%= DateTime.parse("#{event.created_at}").strftime('%B %e, %Y at %I:%M:%S %p') %></h6>
+        <h6 class="event-commits panel-info">Commits:</h6>
+        <% event.commits.each do | commit | %>
+          <a href="https://github.com/<%= @profile.username %>/<%= event.repo_name %>/commit/<%= commit.sha_partial %>"> <%= commit.sha_partial %>
+          <h6 class="commit-message panel-info"><%= commit.message %></h6>
+        <% end %>
+      </li>
+      <% end %>
     </ul>
   </section>
 </main>

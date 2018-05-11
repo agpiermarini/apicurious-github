@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:34 GMT
+      - Fri, 11 May 2018 05:25:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4452'
+      - '4903'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -62,14 +62,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.024467'
+      - '0.019380'
       X-Github-Request-Id:
-      - C86F:0644:391F595:6DA2EE4:5AF51832
+      - C941:0644:39FC736:6F3F4C3:5AF52949
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/activity/starring/#list-repositories-being-starred"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:34 GMT
+  recorded_at: Fri, 11 May 2018 05:25:29 GMT
 - request:
     method: get
     uri: https://api.github.com/users/asdfklajsdfnasd/starred?sort=updated
@@ -93,7 +93,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:34 GMT
+      - Fri, 11 May 2018 05:25:29 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -103,9 +103,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4451'
+      - '4902'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -132,12 +132,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.023893'
+      - '0.020287'
       X-Github-Request-Id:
-      - C870:0644:391F5C8:6DA2F38:5AF51832
+      - C942:0643:2C41DD2:5D6B8CE:5AF52949
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/activity/starring/#list-repositories-being-starred"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:34 GMT
+  recorded_at: Fri, 11 May 2018 05:25:29 GMT
 recorded_with: VCR 4.0.0

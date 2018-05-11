@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:36 GMT
+      - Fri, 11 May 2018 05:25:31 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4446'
+      - '4897'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -62,14 +62,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.024257'
+      - '0.019992'
       X-Github-Request-Id:
-      - C875:0644:391F6FB:6DA313E:5AF51834
+      - C947:0643:2C41EBD:5D6BAA6:5AF5294B
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/users/#get-a-single-user"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:36 GMT
+  recorded_at: Fri, 11 May 2018 05:25:31 GMT
 - request:
     method: get
     uri: https://api.github.com/users/alsdjfaklsdfasdfgd
@@ -93,7 +93,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 04:12:36 GMT
+      - Fri, 11 May 2018 05:25:31 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -103,9 +103,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4445'
+      - '4896'
       X-Ratelimit-Reset:
-      - '1526014515'
+      - '1526018487'
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -132,12 +132,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.023347'
+      - '0.024121'
       X-Github-Request-Id:
-      - C876:0644:391F73B:6DA31A5:5AF51834
+      - C948:0642:1E7CC1F:4564519:5AF5294B
     body:
       encoding: ASCII-8BIT
       string: '{"message":"Not Found","documentation_url":"https://developer.github.com/v3/users/#get-a-single-user"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 04:12:36 GMT
+  recorded_at: Fri, 11 May 2018 05:25:31 GMT
 recorded_with: VCR 4.0.0

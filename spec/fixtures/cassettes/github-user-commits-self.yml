@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 05:25:10 GMT
+      - Fri, 11 May 2018 05:25:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,7 +33,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4955'
+      - '4973'
       X-Ratelimit-Reset:
       - '1526018487'
       Cache-Control:
@@ -70,15 +70,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.042048'
+      - '0.043081'
       X-Github-Request-Id:
-      - C90D:0643:2C41445:5D6A18E:5AF52936
+      - C8FA:0643:2C40F12:5D69510:5AF5292D
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Fri, 11 May 2018 05:25:10 GMT
+  recorded_at: Fri, 11 May 2018 05:25:02 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini/events
@@ -102,7 +102,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 05:25:10 GMT
+      - Fri, 11 May 2018 05:25:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -112,7 +112,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4954'
+      - '4972'
       X-Ratelimit-Reset:
       - '1526018487'
       Cache-Control:
@@ -154,9 +154,9 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.252918'
+      - '0.257594'
       X-Github-Request-Id:
-      - C90E:0642:1E7C308:45631D1:5AF52936
+      - C8FB:0641:158E689:32296EC:5AF5292E
     body:
       encoding: ASCII-8BIT
       string: '[{"id":"7659097465","type":"PushEvent","actor":{"id":19535775,"login":"agpiermarini","display_login":"agpiermarini","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","avatar_url":"https://avatars.githubusercontent.com/u/19535775?"},"repo":{"id":132697165,"name":"agpiermarini/apicurious-github","url":"https://api.github.com/repos/agpiermarini/apicurious-github"},"payload":{"push_id":2555599978,"size":7,"distinct_size":1,"ref":"refs/heads/master","head":"c99a29d9d011eb8039943d7f80877392297aa278","before":"5d824bb28c854682b6b6b028b04557e13c4a8ca1","commits":[{"sha":"ecca1876586187db0cc0d4033b2b6c1107438fa7","author":{"email":"piermarini.andrew@gmail.com","name":"agpiermarini"},"message":"Add
@@ -286,7 +286,7 @@ http_interactions:
         Module 3 Week 2 Independent API Exploration","pusher_type":"user"},"public":true,"created_at":"2018-05-09T03:32:14Z"},{"id":"7647368123","type":"CreateEvent","actor":{"id":19535775,"login":"agpiermarini","display_login":"agpiermarini","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","avatar_url":"https://avatars.githubusercontent.com/u/19535775?"},"repo":{"id":132697165,"name":"agpiermarini/apicurious-github","url":"https://api.github.com/repos/agpiermarini/apicurious-github"},"payload":{"ref":null,"ref_type":"repository","master_branch":"master","description":"Turing
         Module 3 Week 2 Independent API Exploration","pusher_type":"user"},"public":true,"created_at":"2018-05-09T03:31:40Z"}]'
     http_version: 
-  recorded_at: Fri, 11 May 2018 05:25:11 GMT
+  recorded_at: Fri, 11 May 2018 05:25:02 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini/starred?sort=updated
@@ -310,7 +310,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 11 May 2018 05:25:11 GMT
+      - Fri, 11 May 2018 05:25:03 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -320,7 +320,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4953'
+      - '4971'
       X-Ratelimit-Reset:
       - '1526018487'
       Cache-Control:
@@ -355,12 +355,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.025423'
+      - '0.026902'
       X-Github-Request-Id:
-      - C90F:0643:2C414C5:5D6A2E5:5AF52937
+      - C8FC:0644:39FAF09:6F3C98A:5AF5292E
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Fri, 11 May 2018 05:25:11 GMT
+  recorded_at: Fri, 11 May 2018 05:25:03 GMT
 recorded_with: VCR 4.0.0
