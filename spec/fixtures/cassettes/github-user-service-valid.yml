@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:07 GMT
+      - Fri, 11 May 2018 04:12:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4925'
+      - '4450'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -70,15 +70,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.047767'
+      - '0.039549'
       X-Github-Request-Id:
-      - DE3F:5663:1B2C196:394B953:5AF4958B
+      - C871:0642:1E18F4F:447A104:5AF51832
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:07 GMT
+  recorded_at: Fri, 11 May 2018 04:12:34 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini
@@ -102,7 +102,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:07 GMT
+      - Fri, 11 May 2018 04:12:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -112,9 +112,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4924'
+      - '4449'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -149,15 +149,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.042605'
+      - '0.038711'
       X-Github-Request-Id:
-      - DE40:5662:14CE586:2FA4B16:5AF4958B
+      - C872:0643:2BA36E2:5C195A8:5AF51833
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:07 GMT
+  recorded_at: Fri, 11 May 2018 04:12:35 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini
@@ -181,7 +181,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:07 GMT
+      - Fri, 11 May 2018 04:12:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -191,9 +191,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4923'
+      - '4448'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -228,15 +228,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.034805'
+      - '0.037637'
       X-Github-Request-Id:
-      - DE41:5661:DDE795:2204899:5AF4958B
+      - C873:0644:391F676:6DA305F:5AF51833
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:07 GMT
+  recorded_at: Fri, 11 May 2018 04:12:35 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini
@@ -260,7 +260,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:08 GMT
+      - Fri, 11 May 2018 04:12:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -270,9 +270,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4922'
+      - '4447'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -307,13 +307,13 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.047987'
+      - '0.063024'
       X-Github-Request-Id:
-      - DE42:5660:9EB2CE:1867F48:5AF4958B
+      - C874:0642:1E18F90:447A199:5AF51833
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:08 GMT
+  recorded_at: Fri, 11 May 2018 04:12:35 GMT
 recorded_with: VCR 4.0.0

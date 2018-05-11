@@ -19,13 +19,15 @@ describe GithubRepoService do
           expect(subject.repos.first).to have_key :html_url
         end
       end
+    end
+  end
 
-      # How to have a different subject with invalid username
-      skip 'is informed when user invalid' do
-        VCR.use_cassette("github-repo-service-invalid") do
-          expect(subject.repos).to be_a Array
-          expect(subject.repos).to have_key :message
-        end
+  context 'invalid user endpoint' do
+    it 'is informed when user invalid' do
+      VCR.use_cassette("github-repo-service-invalid") do
+        invalid_subject = GithubRepoService.new("asdfklajsdfnasd", ENV["github_token"])
+        expect(invalid_subject.repos).to be_a Hash
+        expect(invalid_subject.repos).to have_key :message
       end
     end
   end

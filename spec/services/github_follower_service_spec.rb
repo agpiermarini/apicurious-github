@@ -18,13 +18,15 @@ describe GithubFollowerService do
           expect(subject.followers.first).to have_key :html_url
         end
       end
+    end
+  end
 
-      # How to have a different subject with invalid username
-      skip 'is informed when user invalid' do
-        VCR.use_cassette("github-followers-service-invalid") do
-          expect(subject.followers).to be_a Hash
-          expect(subject.followers).to have_key :message
-        end
+  context 'invalid user endpoint' do
+    it 'is informed when user invalid' do
+      VCR.use_cassette("github-followers-service-invalid") do
+        invalid_subject = GithubFollowerService.new("asdfklajsdfnasd", ENV["github_token"])
+        expect(invalid_subject.followers).to be_a Hash
+        expect(invalid_subject.followers).to have_key :message
       end
     end
   end

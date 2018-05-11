@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:15 GMT
+      - Fri, 11 May 2018 04:12:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4915'
+      - '4541'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -70,15 +70,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.040432'
+      - '0.043767'
       X-Github-Request-Id:
-      - DE4C:5662:14CE8DE:2FA5258:5AF49593
+      - C814:0643:2BA23D9:5C16AB8:5AF51811
     body:
       encoding: ASCII-8BIT
       string: '{"login":"agpiermarini","id":19535775,"avatar_url":"https://avatars1.githubusercontent.com/u/19535775?v=4","gravatar_id":"","url":"https://api.github.com/users/agpiermarini","html_url":"https://github.com/agpiermarini","followers_url":"https://api.github.com/users/agpiermarini/followers","following_url":"https://api.github.com/users/agpiermarini/following{/other_user}","gists_url":"https://api.github.com/users/agpiermarini/gists{/gist_id}","starred_url":"https://api.github.com/users/agpiermarini/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/agpiermarini/subscriptions","organizations_url":"https://api.github.com/users/agpiermarini/orgs","repos_url":"https://api.github.com/users/agpiermarini/repos","events_url":"https://api.github.com/users/agpiermarini/events{/privacy}","received_events_url":"https://api.github.com/users/agpiermarini/received_events","type":"User","site_admin":false,"name":"Andrew
         Piermarini","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":3,"followers":3,"following":0,"created_at":"2016-05-23T15:58:32Z","updated_at":"2018-05-10T15:18:19Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:15 GMT
+  recorded_at: Fri, 11 May 2018 04:12:01 GMT
 - request:
     method: get
     uri: https://api.github.com/users/agpiermarini/followers
@@ -102,7 +102,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:16 GMT
+      - Fri, 11 May 2018 04:12:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -112,9 +112,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4914'
+      - '4540'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -147,14 +147,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.037237'
+      - '0.033277'
       X-Github-Request-Id:
-      - DE4D:5663:1B2C641:394C2C6:5AF49593
+      - C815:0642:1E18493:44784E4:5AF51811
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"plato721","id":7927426,"avatar_url":"https://avatars1.githubusercontent.com/u/7927426?v=4","gravatar_id":"","url":"https://api.github.com/users/plato721","html_url":"https://github.com/plato721","followers_url":"https://api.github.com/users/plato721/followers","following_url":"https://api.github.com/users/plato721/following{/other_user}","gists_url":"https://api.github.com/users/plato721/gists{/gist_id}","starred_url":"https://api.github.com/users/plato721/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/plato721/subscriptions","organizations_url":"https://api.github.com/users/plato721/orgs","repos_url":"https://api.github.com/users/plato721/repos","events_url":"https://api.github.com/users/plato721/events{/privacy}","received_events_url":"https://api.github.com/users/plato721/received_events","type":"User","site_admin":false},{"login":"jamesrnelson","id":34174321,"avatar_url":"https://avatars1.githubusercontent.com/u/34174321?v=4","gravatar_id":"","url":"https://api.github.com/users/jamesrnelson","html_url":"https://github.com/jamesrnelson","followers_url":"https://api.github.com/users/jamesrnelson/followers","following_url":"https://api.github.com/users/jamesrnelson/following{/other_user}","gists_url":"https://api.github.com/users/jamesrnelson/gists{/gist_id}","starred_url":"https://api.github.com/users/jamesrnelson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jamesrnelson/subscriptions","organizations_url":"https://api.github.com/users/jamesrnelson/orgs","repos_url":"https://api.github.com/users/jamesrnelson/repos","events_url":"https://api.github.com/users/jamesrnelson/events{/privacy}","received_events_url":"https://api.github.com/users/jamesrnelson/received_events","type":"User","site_admin":false},{"login":"nergdnvlt","id":33960735,"avatar_url":"https://avatars1.githubusercontent.com/u/33960735?v=4","gravatar_id":"","url":"https://api.github.com/users/nergdnvlt","html_url":"https://github.com/nergdnvlt","followers_url":"https://api.github.com/users/nergdnvlt/followers","following_url":"https://api.github.com/users/nergdnvlt/following{/other_user}","gists_url":"https://api.github.com/users/nergdnvlt/gists{/gist_id}","starred_url":"https://api.github.com/users/nergdnvlt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nergdnvlt/subscriptions","organizations_url":"https://api.github.com/users/nergdnvlt/orgs","repos_url":"https://api.github.com/users/nergdnvlt/repos","events_url":"https://api.github.com/users/nergdnvlt/events{/privacy}","received_events_url":"https://api.github.com/users/nergdnvlt/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:16 GMT
+  recorded_at: Fri, 11 May 2018 04:12:01 GMT
 - request:
     method: get
     uri: https://api.github.com/users/plato721
@@ -178,7 +178,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:16 GMT
+      - Fri, 11 May 2018 04:12:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -188,15 +188,15 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4913'
+      - '4539'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       Etag:
-      - W/"cd0048da1350239eecc78f0bb803172e"
+      - W/"7ef61f745d25ab6c923db8af29762ed5"
       Last-Modified:
       - Fri, 27 Apr 2018 15:38:30 GMT
       X-Oauth-Scopes:
@@ -225,17 +225,17 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.041641'
+      - '0.035598'
       X-Github-Request-Id:
-      - DE4E:5663:1B2C660:394C30E:5AF49594
+      - C816:0643:2BA2494:5C16C01:5AF51811
     body:
       encoding: ASCII-8BIT
       string: '{"login":"plato721","id":7927426,"avatar_url":"https://avatars1.githubusercontent.com/u/7927426?v=4","gravatar_id":"","url":"https://api.github.com/users/plato721","html_url":"https://github.com/plato721","followers_url":"https://api.github.com/users/plato721/followers","following_url":"https://api.github.com/users/plato721/following{/other_user}","gists_url":"https://api.github.com/users/plato721/gists{/gist_id}","starred_url":"https://api.github.com/users/plato721/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/plato721/subscriptions","organizations_url":"https://api.github.com/users/plato721/orgs","repos_url":"https://api.github.com/users/plato721/repos","events_url":"https://api.github.com/users/plato721/events{/privacy}","received_events_url":"https://api.github.com/users/plato721/received_events","type":"User","site_admin":false,"name":"Matt
         Ewell","company":"@iCentris ","blog":"","location":"Salt Lake City, UT","email":"matt.ewell@gmail.com","hireable":null,"bio":"I''m
         a dev with @iCentris . Ruby, Rails, JavaScript, Java, jQuery, React, Redux,
-        RSpec, more.","public_repos":16,"public_gists":6,"followers":8,"following":6,"created_at":"2014-06-18T21:22:17Z","updated_at":"2018-04-27T15:38:30Z"}'
+        RSpec, more.","public_repos":16,"public_gists":6,"followers":8,"following":7,"created_at":"2014-06-18T21:22:17Z","updated_at":"2018-04-27T15:38:30Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:16 GMT
+  recorded_at: Fri, 11 May 2018 04:12:01 GMT
 - request:
     method: get
     uri: https://api.github.com/users/jamesrnelson
@@ -259,7 +259,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:16 GMT
+      - Fri, 11 May 2018 04:12:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -269,9 +269,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4912'
+      - '4538'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -306,15 +306,15 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.050021'
+      - '0.052889'
       X-Github-Request-Id:
-      - DE4F:5663:1B2C682:394C355:5AF49594
+      - C817:0644:391D893:6D9FBC8:5AF51812
     body:
       encoding: ASCII-8BIT
       string: '{"login":"jamesrnelson","id":34174321,"avatar_url":"https://avatars1.githubusercontent.com/u/34174321?v=4","gravatar_id":"","url":"https://api.github.com/users/jamesrnelson","html_url":"https://github.com/jamesrnelson","followers_url":"https://api.github.com/users/jamesrnelson/followers","following_url":"https://api.github.com/users/jamesrnelson/following{/other_user}","gists_url":"https://api.github.com/users/jamesrnelson/gists{/gist_id}","starred_url":"https://api.github.com/users/jamesrnelson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jamesrnelson/subscriptions","organizations_url":"https://api.github.com/users/jamesrnelson/orgs","repos_url":"https://api.github.com/users/jamesrnelson/repos","events_url":"https://api.github.com/users/jamesrnelson/events{/privacy}","received_events_url":"https://api.github.com/users/jamesrnelson/received_events","type":"User","site_admin":false,"name":"James
         Nelson","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":48,"public_gists":10,"followers":4,"following":17,"created_at":"2017-12-01T22:48:41Z","updated_at":"2018-05-09T22:50:04Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:16 GMT
+  recorded_at: Fri, 11 May 2018 04:12:02 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nergdnvlt
@@ -338,7 +338,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 10 May 2018 18:55:16 GMT
+      - Fri, 11 May 2018 04:12:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -348,15 +348,15 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4911'
+      - '4537'
       X-Ratelimit-Reset:
-      - '1525980816'
+      - '1526014515'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       Etag:
-      - W/"9f59db7406bde8a9b602aa474d39f1b8"
+      - W/"ce5b8ec1a9de43418cb28f7d54790660"
       Last-Modified:
       - Sat, 14 Apr 2018 00:41:29 GMT
       X-Oauth-Scopes:
@@ -385,15 +385,91 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Runtime-Rack:
-      - '0.050979'
+      - '0.031460'
       X-Github-Request-Id:
-      - DE50:5660:9EB419:18682F7:5AF49594
+      - C818:0642:1E18505:4478619:5AF51812
     body:
       encoding: ASCII-8BIT
       string: '{"login":"nergdnvlt","id":33960735,"avatar_url":"https://avatars1.githubusercontent.com/u/33960735?v=4","gravatar_id":"","url":"https://api.github.com/users/nergdnvlt","html_url":"https://github.com/nergdnvlt","followers_url":"https://api.github.com/users/nergdnvlt/followers","following_url":"https://api.github.com/users/nergdnvlt/following{/other_user}","gists_url":"https://api.github.com/users/nergdnvlt/gists{/gist_id}","starred_url":"https://api.github.com/users/nergdnvlt/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nergdnvlt/subscriptions","organizations_url":"https://api.github.com/users/nergdnvlt/orgs","repos_url":"https://api.github.com/users/nergdnvlt/repos","events_url":"https://api.github.com/users/nergdnvlt/events{/privacy}","received_events_url":"https://api.github.com/users/nergdnvlt/received_events","type":"User","site_admin":false,"name":"Tyler
         Lundgren","company":null,"blog":"https://www.linkedin.com/in/tlundgren/","location":"Boulder,
         CO","email":"tylerlundgren@yahoo.com","hireable":null,"bio":"Backend Engineering
-        Student at Turing School of Software and Design","public_repos":35,"public_gists":5,"followers":1,"following":13,"created_at":"2017-11-24T14:27:55Z","updated_at":"2018-04-14T00:41:29Z"}'
+        Student at Turing School of Software and Design","public_repos":35,"public_gists":5,"followers":3,"following":13,"created_at":"2017-11-24T14:27:55Z","updated_at":"2018-04-14T00:41:29Z"}'
     http_version: 
-  recorded_at: Thu, 10 May 2018 18:55:16 GMT
+  recorded_at: Fri, 11 May 2018 04:12:02 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/agpiermarini/starred?sort=updated
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Authorization:
+      - token <GITHUB OAUTH TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 11 May 2018 04:12:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4536'
+      X-Ratelimit-Reset:
+      - '1526014515'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - '"8dc2568d4862088eac2bb1c7149e0925"'
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - bff9e878c77272925590
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.022872'
+      X-Github-Request-Id:
+      - C819:0644:391D946:6D9FD37:5AF51812
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Fri, 11 May 2018 04:12:02 GMT
 recorded_with: VCR 4.0.0

@@ -4,12 +4,23 @@ main
   margin: 50px 75px 0 75px
 
 .bottom-border
-    border-top: 0px
-    border-right: 0px
-    border-left: 0px
-    border-bottom: 1px
-    border-style: solid
-    border-color: #C6CBD1
+  border-top: 0px
+  border-right: 0px
+  border-left: 0px
+  border-bottom: 1px
+  border-style: solid
+  border-color: #C6CBD1
+
+.top-border
+  border-top: 1px
+  border-right: 0px
+  border-left: 0px
+  border-bottom: 0px
+  border-style: solid
+  border-color: #C6CBD1
+  width: 250px
+  margin-top: 20px
+  padding-top: 15px
 
 .bg-dark
   background-color: #25292E!important
@@ -61,9 +72,39 @@ ul.user
   .bio
     padding-top: 10px
     width: 250px
+    color: #6A737D
+
+  .lightweight-small
     font-size: 15px
     font-weight: lighter
-    color: #6A737D
+
+  .company
+    margin-bottom: 5px
+    color: #24292E
+    font-weight: bold
+
+    svg
+      font-size: 14px
+      margin-right: 1px
+
+  .location
+    margin-bottom: 5px
+    color: #24292E
+
+    svg
+      padding-left: 3px
+      margin-right: 8px
+
+  .email
+    margin-bottom: 5px
+    font-weight: 300
+    color: #0366D6
+
+    svg
+      font-size: 14px
+      color: #6A737D
+      margin-right: 5px
+
 
 .other-info
   width: 55%
@@ -79,9 +120,27 @@ ul.info
     a
       font-size: 15px
       color: #586069
+      padding-bottom: 22px
+      text-decoration: none
 
-    .overview-link, .repo-link, .starred-link, .follower-link
+    a:hover
+      border-bottom: 2px solid
+
+    a:active
+      border-bottom: 2px solid
+      border-color: orange
+
+    .user-link
         margin-right: 25px
+
+        .count
+          width: auto
+          padding-left: 6px
+          padding-right: 6px
+          padding-bottom: 1px
+          background-color: #E8E9EB
+          border-radius: 500px
+          font-weight: 500
 
 li.list-panel
   margin: 15px 0px 10px 0px
@@ -101,6 +160,11 @@ li.list-panel
     font-size: 20px
     font-weight: bold
     color: #0366D6
+
+  .repo-language
+    svg
+      font-size: 12px
+      color: darkgreen
 
 .follow
   display: flex
