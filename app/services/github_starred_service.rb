@@ -11,7 +11,7 @@ class GithubStarredService
   private
     attr_reader :username, :token
     def connection
-      Faraday.new "https://api.github.com/users/#{username}/starred?sort=created"
+      Faraday.new "https://api.github.com/users/#{username}/starred?sort=updated"
     end
 
     def response
